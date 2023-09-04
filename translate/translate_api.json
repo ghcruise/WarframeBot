@@ -1,0 +1,3 @@
+{
+    "api":"https://warframe.huijiwiki.com/api.php?action=query&format=json&prop=revisions&titles=Data%3AUserDict.json&formatversion=2&rvprop=content&rvlimit=1"
+}
