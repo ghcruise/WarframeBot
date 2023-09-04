@@ -70,5 +70,5 @@ def arbitration():
     except:
         print("retry...")
         arbitration()
-print(arbitration()[0][0]['theme'])
-print(arbitration()[1])
+# print(arbitration()[0][0]['theme'])
+# print(arbitration()[1])

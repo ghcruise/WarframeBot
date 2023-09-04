@@ -64,4 +64,4 @@ def dailyDeal():
     cm = CardMessage(darvoCard)
     return cm,darvo_item,item_discount
 
-print(dailyDeal()[1])
+# print(dailyDeal()[1])

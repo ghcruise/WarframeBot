@@ -6,6 +6,10 @@ import logging
 import subprocess
 from khl import Bot , Message ,EventTypes ,Event
 
+
+p=subprocess.Popen(["python","content/get_api_json.py"])
+p.wait()
+
 sys.path.append(os.path.join(os.getcwd(), 'api_module'))
 from function.updateCardmessage import upd_card
 from api_module.plain import plain
@@ -24,7 +28,6 @@ from api_module.pushNotification.invasionSort import invasionPush
 from api_module.event import event
 from api_module.pushNotification.fissureSort import fissurePush
 
-subprocess.call(["python","content/get_api_json.py"])
 
 with open('config/config.json', 'r', encoding='utf-8') as f1,\
     open('translate/translate_dict.json', 'r', encoding='utf-8') as f2,\
