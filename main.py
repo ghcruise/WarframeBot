@@ -3,6 +3,7 @@ import sys
 import time
 import json
 import logging
+import subprocess
 from khl import Bot , Message ,EventTypes ,Event
 
 sys.path.append(os.path.join(os.getcwd(), 'api_module'))
@@ -22,6 +23,8 @@ from api_module.invasion import invasion
 from api_module.pushNotification.invasionSort import invasionPush
 from api_module.event import event
 from api_module.pushNotification.fissureSort import fissurePush
+
+subprocess.call(["python","content/get_api_json.py"])
 
 with open('config/config.json', 'r', encoding='utf-8') as f1,\
     open('translate/translate_dict.json', 'r', encoding='utf-8') as f2,\
