@@ -3,12 +3,7 @@ import sys
 import time
 import json
 import logging
-import subprocess
 from khl import Bot , Message ,EventTypes ,Event
-
-
-p=subprocess.Popen(["python","content/get_api_json.py"])
-p.wait()
 
 sys.path.append(os.path.join(os.getcwd(), 'api_module'))
 from function.updateCardmessage import upd_card
