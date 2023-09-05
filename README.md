@@ -81,9 +81,17 @@ A Warframe notification bot based on python
 打包下载``WarframeBot.git``
 修改``config/config.json.example``中的内容  
 填写平台``platform``(现阶段仅支持PC),KOOK机器人``TOKEN``和推送频道ID``notifcationChannelID``   
-并重命名为``config.json``
-    
+并重命名为``config.json``  
+在Bot目录下运行
 ```
 pip install -r requirements.txt  
-python3 init.py
+```
+
+### Windows
+```
+start.bat
+```  
+### Linux
+```
+run.sh
 ```

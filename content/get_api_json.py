@@ -23,12 +23,12 @@ i = 0
 while i < api_length:
     PublicExport = f"http://content.warframe.com/PublicExport/Manifest/{api_path[i]}"
     recu_down(PublicExport, f"content/{api_name[i]}")
-    with open(f"content\{api_name[i]}",'r', encoding='utf-8')as f2:
+    with open(f"content/{api_name[i]}",'r', encoding='utf-8')as f2:
         content = f2.readlines()
     content=[line.replace('\\r\n',"") for line in content[:]]
     content=[line.replace('},',"},\n") for line in content[:]]
     #print(content)
-    with open(f"content\{api_name[i]}",'w', encoding='utf-8')as f3:
+    with open(f"content/{api_name[i]}",'w', encoding='utf-8')as f3:
         f3.writelines(content)
     #processing
     print(f"{str(float((i+1)/api_length)*100)} % - ({i+1}/{api_length})")
