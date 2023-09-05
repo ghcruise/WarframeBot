@@ -3,12 +3,7 @@ import sys
 import time
 import json
 import logging
-import subprocess
 from khl import Bot , Message ,EventTypes ,Event
-
-
-p=subprocess.Popen(["python","content/get_api_json.py"])
-p.wait()
 
 sys.path.append(os.path.join(os.getcwd(), 'api_module'))
 from function.updateCardmessage import upd_card
@@ -84,12 +79,16 @@ async def command_arbitration_sub():
                 await bot.send(ch,cm2)
 
 #仲裁好图推送
+arbitrationPush = 0
 @bot.task.add_cron(hour='0/1', minute="0-3",second="50")
 async def command_arbitration_push():
+            global arbitrationPush
             cm = arbitration()
             if (cm[1] == 0):
+                arbitrationPush = 0
                 print("arb is no value.")
-            else:
+            elif arbitrationPush==0:
+                arbitrationPush=1
                 cm[0][0]['theme']="danger"
                 ch = await bot.client.fetch_public_channel(channelID)
                 await bot.send(ch,cm[0])
