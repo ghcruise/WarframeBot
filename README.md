@@ -85,5 +85,5 @@ A Warframe notification bot based on python
     
 ```
 pip install -r requirements.txt  
-python3 main.py
+python3 init.py
 ```
