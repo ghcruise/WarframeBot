@@ -21,7 +21,10 @@ def event():
     eventRewards = []
     for i in range(len(event_dict)):
         eventID.append(event_dict[i]['_id']['$oid'])
-        eventNodes.append(f"{solNode(event_dict[i]['Node'])['name']} {solNode(event_dict[i]['Node'])['systemName']}")
+        try:
+            eventNodes.append(f"{solNode(event_dict[i]['Node'])['name']} {solNode(event_dict[i]['Node'])['systemName']}")
+        except:
+            eventNodes.append(f"{solNode(event_dict[i]['VictimNode'])['name']} {solNode(event_dict[i]['VictimNode'])['systemName']}")
         eventExpiry.append(event_dict[i]['Expiry']['$date']['$numberLong'])
         eventTag.append(event_dict[i]['Tag'])
         try:
