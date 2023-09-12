@@ -29,6 +29,12 @@ with open("content/ExportRecipes_zh.json",'r',encoding='utf-8') as f3:
 with open("content/ExportKeys_zh.json",'r',encoding='utf-8') as f3:
     translateKeys = json.load(f3)
 
+with open("content/ExportRelicArcane_zh.json",'r',encoding='utf-8') as f3:
+    translateRelicArcane = json.load(f3)
+
+with open("content/ExportGear_zh.json",'r',encoding='utf-8') as f3:
+    translateGear = json.load(f3)
+
 with open("api_module/warframemarket/wmItem.json",'r',encoding='utf-8') as f4:
     translateWmItem = json.load(f4)
 
@@ -49,17 +55,21 @@ def uni2zh(ItemUname):
                             if not result:
                                 result = [obj for obj in translateKeys['ExportKeys'] if obj['uniqueName']==ItemUname]
                                 if not result:
-                                    result = [obj for obj in findRecipesBlueprint['ExportRecipes'] if obj['uniqueName']==ItemUname]
+                                    result = [obj for obj in findRecipesBlueprint['ExportRecipes'] if obj['uniqueName']==ItemUname]                  
                                     if not result:
-                                        fuckingName = ItemUname.split('/')[-1]
-                                        print(fuckingName)
-                                        fuckingItem = re.sub(r'([A-Z]+[^A-Z])',r' \1',fuckingName)
-                                        #print(fuckingItem)
-                                        result = [obj for obj in translateWmItem if (fuzz.token_set_ratio(fuckingItem,obj['item_name_en'])==100)]
+                                        result = [obj for obj in translateRelicArcane['ExportRelicArcane'] if obj['uniqueName']==ItemUname]
                                         if not result:
-                                            return str.lstrip(fuckingItem)
+                                            result = [obj for obj in translateGear['ExportGear'] if obj['uniqueName']==ItemUname]
+                                            if not result:
+                                                fuckingName = ItemUname.split('/')[-1]
+                                                print(fuckingName)
+                                                fuckingItem = re.sub(r'([A-Z]+[^A-Z])',r' \1',fuckingName)
+                                                #print(fuckingItem) 
+                                                return str.lstrip(fuckingItem)
+                                            else:
+                                                return result[0]['name']
                                         else:
-                                            return result[0]['item_name']
+                                            return result[0]['name']                                    
                                     else:
                                         newUname = result[0]['resultType']
                                         itemName = f"{uni2zh(newUname)} 蓝图"
@@ -73,7 +83,7 @@ def uni2zh(ItemUname):
                     else:
                         return result[0]['name']
                 else:
-                    return result[0]['name']
+                    return result[0]['name'].replace('/',',')
             else:
                 return result[0]['name']
         else:

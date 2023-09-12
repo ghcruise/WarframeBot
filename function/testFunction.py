@@ -7,4 +7,4 @@ from translate_uni2zh import uni2zh
 # snd = "CrewBattleNode519"
 # snode = solNode(snd)
 print(solNode("SolNode196"))
-print(uni2zh("/Lotus/Weapons/Corpus/Melee/KickAndPunch/KickPunchWeapon"))
+print(uni2zh("/Lotus/Types/StoreItems/SuitCustomizations/ColourPickerRWBItem"))
