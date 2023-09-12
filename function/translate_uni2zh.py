@@ -80,6 +80,4 @@ def uni2zh(ItemUname):
             return result[0]['name']
     else:
         return result[0]['name']
-
-# print(uni2zh("/Lotus/Types/Recipes/WarframeRecipes/ZephyrPrimeHelmetBlueprint"))
         

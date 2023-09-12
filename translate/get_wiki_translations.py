@@ -22,3 +22,5 @@ with open("translate/wiki_translations.json",'r',encoding='utf-8')as f:
 content = [line.replace('",','",\n') for line in content[:]]
 with open("translate/wiki_translations.json",'w',encoding='utf-8')as f:
     f.writelines(content)
+
+print("done")
