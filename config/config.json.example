@@ -2,7 +2,7 @@
     "token":"",
     "platform":"",
     "notifcationChannelID":"",
-    "invasions":["1× Forma 蓝图","1× OROKIN催化剂 蓝图","1× OROKIN反应堆 蓝图"],
+    "invasions":["1× Forma 蓝图","1× Orokin催化剂 蓝图","1× Orokin反应堆 蓝图"],
     "fissures":{
         "voidfissures_normal":["SolNode400","SolNode401","SolNode406","SolNode407"],
         "voidfissures_hard":["SolNode405","SolNode409"]},
