@@ -1,8 +1,15 @@
-# <center>WarframeBot</center>
+<h1 align= "center">WarframeBot</h1>  
+
 ## Helios Prime  
 基于python的Warframe KOOK机器人  
 A Warframe notification bot based on python   
-[TOC]
+- [Helios Prime](#helios-prime)
+- [查询功能-指令](#查询功能-指令)
+- [进度-Todo](#进度-todo)
+- [部署方法](#部署方法)
+  - [Windows](#windows)
+  - [Linux](#linux)
+
 
 ## 查询功能-指令 
 - **突击**：查询每日突击，有推送
