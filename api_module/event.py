@@ -6,7 +6,8 @@ import requests
 sys.path.append(os.path.join(os.getcwd()))
 from function.translate_uni2zh import uni2zh
 from function.get_solnode_info import solNode
-
+with open("translate/translate_event.json",'r',encoding="utf-8") as f:
+    eventDict = json.load(f)
 def event():
     worldState = requests.get("http://content.warframe.com/dynamic/worldState.php")
     worldState_dict = worldState.json()
@@ -40,7 +41,7 @@ def event():
         "modules": []
     }]
     for i in range(len(event_dict)):
-        eventContent = f"[{eventTag[i]}]\n - 奖励: {eventRewards[i]}\n"
+        eventContent = f"[{eventDict[eventTag[i]]}]\n - 奖励: {eventRewards[i]}\n"
         eventCard[0]['modules'].append(
         {
             "type": "section",
@@ -49,4 +50,4 @@ def event():
             "content": eventContent
             }})
     return eventCard,eventData   
-# print(event()[0])
+#print(event()[0])
