@@ -41,7 +41,7 @@ def event():
         "modules": []
     }]
     for i in range(len(event_dict)):
-        eventContent = f"[{eventDict[eventTag[i]]}]\n - 奖励: {eventRewards[i]}\n"
+        eventContent = f"[{eventDict.get(eventTag[i],eventTag[i])}]\n - 奖励: {eventRewards[i]}\n"
         eventCard[0]['modules'].append(
         {
             "type": "section",
