@@ -28,6 +28,6 @@
     {"factionIndex": 0, "factionType":"FC_GRINEER", "faction": "Grineer"},
     {"factionIndex": 1, "factionType":"FC_CORPUS", "faction": "Corpus"},
     {"factionIndex": 2, "factionType":"FC_INFESTATION", "faction": "Infested"},
-    {"factionIndex": 3, "factionType":"", "faction": "Orokin"},
+    {"factionIndex": 3, "factionType":"FC_OROKIN", "faction": "Orokin"},
     {"factionIndex": 5, "factionType":"", "faction": "Duviri"}]
 }

@@ -21,6 +21,7 @@ from api_module.duviriEndless import endlessCircuit
 from api_module.invasion import invasion
 from api_module.pushNotification.invasionSort import invasionPush
 from api_module.event import event
+from api_module.alert import alert
 from api_module.pushNotification.fissureSort import fissurePush
 
 
@@ -206,6 +207,12 @@ async def command_circuit(msg:Message):
 @bot.command(name='活动',prefixes=[''])
 async def command_event(msg:Message):
     cm = event()[0]
+    await msg.ctx.channel.send(cm)
+
+#警报
+@bot.command(name='警报',prefixes=[''])
+async def command_alert(msg:Message):
+    cm = alert()
     await msg.ctx.channel.send(cm)
 
 #入侵状态

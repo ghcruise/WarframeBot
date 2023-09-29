@@ -23,6 +23,7 @@ A Warframe notification bot based on python
 - **回廊**：查询每周回廊可选物品，推送Todo
 - **入侵**：查询入侵状态，有推送
 - **活动**：查询当前活动，推送Todo
+- **警报**：查询当前警报任务
 
 
 
@@ -73,7 +74,7 @@ A Warframe notification bot based on python
     - [x] 钢铁回廊每周灵化武器
     - [ ] 每周推送
 - [ ] 警报
-    - [ ] 使用官方API
+    - [x] 使用官方API
     - [ ] 推送
 - [x] 入侵
     - [x] 使用官方API
