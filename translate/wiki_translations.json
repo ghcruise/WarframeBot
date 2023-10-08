@@ -7677,7 +7677,6 @@
 "Amp Arcane Adapter":"增幅器赋能槽连接器",
 "Common Condroc":"常见秃鹰",
 "Ethereal Void Angel":"苍穹虚空天使",
-"Duviri Paradox":"双衍悖论（原声带）",
 "Duviri":"双衍王境",
 "Prime Barrel":"枪管",
 "Prime Receiver":"枪机",
@@ -7946,7 +7945,8 @@
 "Tamm-herding":"塔塔羊放牧",
 "Kexat":"可娃",
 "Hard":"Hard",
-"Normal":"Normal"},"Category":{"Alert":"警报",
+"Normal":"Normal",
+"Duviri Paradox (Soundtrack)":"双衍悖论（原声带）"},"Category":{"Alert":"警报",
 "Alerts":"警报",
 "Ammo":"弹药",
 "Arcane":"赋能",
@@ -8676,4 +8676,6 @@
 "Update 31":"更新31",
 "Update 27":"更新27",
 "Incarnon Weapons":"灵化武器",
-"Update 33":"更新33"}}
+"Update 33":"更新33",
+"Primaries":"主要武器",
+"Secondaries":"次要武器"}}

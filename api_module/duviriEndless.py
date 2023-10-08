@@ -4,7 +4,7 @@ import re
 from fuzzywuzzy import fuzz
 from khl.card import CardMessage
 
-with open("content/ExportWeapons_zh.json",'r',encoding='utf-8')as f:
+with open("translate/wiki_translations.json",'r',encoding='utf-8')as f:
     weapenTranslate = json.load(f)
 # itemName = "DualToxocyst"
 # result = [obj for obj in weapenTranslate['ExportWeapons'] if (fuzz.token_set_ratio(itemName,obj['description'])>90)]
@@ -34,14 +34,16 @@ def endlessCircuit():
     EXC_hard_content = f"本周钢铁回廊可选灵化之源:\n"
     i = 0
     while i<len(EXC_hard):
-        itemName = str.upper(str.lstrip(re.sub(r'([A-Z]+[^A-Z])',r' \1',EXC_hard[i]))).replace('AND','&')
-        result = [obj for obj in weapenTranslate['ExportWeapons'] if (fuzz.token_set_ratio(itemName,obj['description'])==100)]
-        if i == 0:
-            EXC_hard_content += f"**{result[0]['name']}**"
-        else:
-            EXC_hard_content += f",**{result[0]['name'].replace(' Prime','')}**"
+        itemName = str.lstrip(re.sub(r'([A-Z]+[^A-Z])',r' \1',EXC_hard[i])).replace('AND','&')
+        EXC_hard_content += f"**{weapenTranslate['Text'].get(itemName,itemName)}**,"
+        # result = [obj for obj in weapenTranslate['ExportWeapons'] if (fuzz.token_set_ratio(itemName,obj['description'])==100)]
+        # if i == 0:
+        #     EXC_hard_content += f"**{result[0]['name']}**"
+        # else:
+        #     EXC_hard_content += f",**{result[0]['name'].replace(' Prime','')}**"
         i += 1
     #print(EXC_hard_content)
+    EXC_hard_content=EXC_hard_content[:-1]
 
     circuitCard = {
         "type": "card",
@@ -72,4 +74,4 @@ def endlessCircuit():
     cm = CardMessage(circuitCard)
     return cm
 
-# print(endlessCircuit())
+print(endlessCircuit())
