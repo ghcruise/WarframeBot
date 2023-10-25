@@ -3,6 +3,7 @@ import sys
 import os
 import json
 import requests
+import datetime
 from khl.card import CardMessage
 sys.path.append(os.path.join(os.getcwd()))
 from function.get_solnode_info import solNode
@@ -47,6 +48,8 @@ def arbitration():
     + solnode_info['type']
     #处理卡片消息
     arbitrationRefreshTime = get_time_stamp(arbitration_dict[0]['end']) * 1000
+    nowtime = datetime.datetime.now(datetime.timezone.utc).timestamp()*1000
+    arbitrationRefreshTime = nowtime - nowtime%3600 +3600
     arbitrationCard = {
         "type": "card",
         "theme": "success",
@@ -71,4 +74,4 @@ def arbitration():
     cm = CardMessage(arbitrationCard)
     return cm,push
 # print(arbitration()[0][0]['theme'])
-# print(arbitration())
+print(arbitration())

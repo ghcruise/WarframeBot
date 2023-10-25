@@ -22,46 +22,49 @@ def dailyDeal():
     worldState_dict = worldState.json()
     print("[ init ] Darvo. Status Code:",worldState.status_code)
     darvo_dict = worldState_dict['DailyDeals']
-    darvo_item = uni2zh(darvo_dict[0]['StoreItem'].replace('StoreItems/',''))
-    item_originalPrice = darvo_dict[0]['OriginalPrice']
-    item_salePrice = darvo_dict[0]['SalePrice']
-    item_total = darvo_dict[0]['AmountTotal']
-    item_sold = darvo_dict[0]['AmountSold']
-    item_remain = item_total - item_sold
-    item_discount = darvo_dict[0]['Discount']
-    item_expiry = darvo_dict[0]['Expiry']['$date']['$numberLong']
-    
-    cardContent1 = f"[{darvo_item} -{item_discount}%off] 库存:{item_remain}/{item_total}"
-    cardContent2 = f"原价 {item_originalPrice}白金  现价 {item_salePrice}白金"
-
-    darvoCard = {
-        "type": "card",
-        "theme": "success",
-        "size": "lg",
-        "modules": [
-        {
-            "type": "section",
-            "text": {
-            "type": "plain-text",
-            "content": cardContent1
-        }
-      },
-      {
-            "type": "section",
-            "text": {
-            "type": "plain-text",
-            "content": cardContent2
-        }
-      },
+    if (darvo_dict == []):
+        return None
+    else:
+      darvo_item = uni2zh(darvo_dict[0]['StoreItem'].replace('StoreItems/',''))
+      item_originalPrice = darvo_dict[0]['OriginalPrice']
+      item_salePrice = darvo_dict[0]['SalePrice']
+      item_total = darvo_dict[0]['AmountTotal']
+      item_sold = darvo_dict[0]['AmountSold']
+      item_remain = item_total - item_sold
+      item_discount = darvo_dict[0]['Discount']
+      item_expiry = darvo_dict[0]['Expiry']['$date']['$numberLong']
       
-      {
-        "type": "countdown",
-        "mode": "day",
-        "endTime": item_expiry
-      }
-    ]
-    }
-    cm = CardMessage(darvoCard)
-    return cm,darvo_item,item_discount
+      cardContent1 = f"[{darvo_item} -{item_discount}%off] 库存:{item_remain}/{item_total}"
+      cardContent2 = f"原价 {item_originalPrice}白金  现价 {item_salePrice}白金"
 
-# print(dailyDeal()[1])
+      darvoCard = {
+          "type": "card",
+          "theme": "success",
+          "size": "lg",
+          "modules": [
+          {
+              "type": "section",
+              "text": {
+              "type": "plain-text",
+              "content": cardContent1
+          }
+        },
+        {
+              "type": "section",
+              "text": {
+              "type": "plain-text",
+              "content": cardContent2
+          }
+        },
+        
+        {
+          "type": "countdown",
+          "mode": "day",
+          "endTime": item_expiry
+        }
+      ]
+      }
+      cm = CardMessage(darvoCard)
+      return cm,darvo_item,item_discount
+
+print(dailyDeal())
