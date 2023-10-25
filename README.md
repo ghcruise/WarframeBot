@@ -86,6 +86,7 @@ A Warframe notification bot based on python
     - [ ] 推送
  
 ## 部署方法  
+Python 版本>= 3.7
 打包下载``WarframeBot.git``
 修改``config/config.json.example``中的内容  
 填写平台``platform``(现阶段仅支持PC),KOOK机器人``TOKEN``和推送频道ID``notifcationChannelID``   
