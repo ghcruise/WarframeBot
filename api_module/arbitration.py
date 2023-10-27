@@ -49,7 +49,7 @@ def arbitration():
     #处理卡片消息
     arbitrationRefreshTime = get_time_stamp(arbitration_dict[0]['end']) * 1000
     nowtime = datetime.datetime.now(datetime.timezone.utc).timestamp()*1000
-    arbitrationRefreshTime = nowtime - nowtime%3600 +3600
+    arbitrationRefreshTime = nowtime - nowtime%3600000 +3600000
     arbitrationCard = {
         "type": "card",
         "theme": "success",
