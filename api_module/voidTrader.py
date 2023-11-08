@@ -8,14 +8,17 @@ from khl.card import CardMessage
 sys.path.append(os.path.join(os.getcwd()))
 from function.translate_uni2zh import uni2zh
 
-with open('translate/translate_dict.json', 'r', encoding='utf-8') as f1:
-    translateDict = json.load(f1)
+with open('translate/wiki_translations.json', 'r', encoding='utf-8') as f1:
+    translateDict = json.load(f1)['Text']
 print("[ init ] VoidTrader.")
+
 def voidTrader():
     #UTC+8
     #local_time = time.time() * 1000 + 3600 * 8
-    worldState = requests.get("http://content.warframe.com/dynamic/worldState.php")
-    worldState_dict = worldState.json()
+    # worldState = requests.get("http://content.warframe.com/dynamic/worldState.php")
+    # worldState_dict = worldState.json()
+    with open("content/worldState.json",'r',encoding='utf-8') as f:
+        worldState_dict=json.load(f)
     voidTrader_raw = worldState_dict['VoidTraders']
     startTime = voidTrader_raw[0]['Activation']['$date']['$numberLong']
     # local_time = worldState_dict['Time'] * 1000
@@ -104,4 +107,4 @@ def voidTrader():
             
     cm = CardMessage(baroCard)
     return cm
-#print(voidTrader())
+# print(voidTrader())

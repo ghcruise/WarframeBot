@@ -12,9 +12,11 @@ with open("content/extra/SolNode.json",'r',encoding='utf-8') as f:
 
 def invasion():
     try:
-        worldState = requests.get("http://content.warframe.com/dynamic/worldState.php",timeout=(5,5))
-        worldState_dict = worldState.json()
-        print("[ init ] Invasions. Status Code:",worldState.status_code)
+        # worldState = requests.get("http://content.warframe.com/dynamic/worldState.php",timeout=(5,5))
+        # worldState_dict = worldState.json()
+        # print("[ init ] Invasions. Status Code:",worldState.status_code)
+        with open("content/worldState.json",'r',encoding='utf-8') as f:
+            worldState_dict=json.load(f)
         invasion_dict = worldState_dict['Invasions']
 
         nodeContent = []

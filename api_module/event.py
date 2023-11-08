@@ -9,9 +9,11 @@ from function.get_solnode_info import solNode
 with open("translate/translate_event.json",'r',encoding="utf-8") as f:
     eventDict = json.load(f)
 def event():
-    worldState = requests.get("http://content.warframe.com/dynamic/worldState.php")
-    worldState_dict = worldState.json()
-    print("[ init ] Events. Status Code:",worldState.status_code)
+    # worldState = requests.get("http://content.warframe.com/dynamic/worldState.php")
+    # worldState_dict = worldState.json()
+    # print("[ init ] Events. Status Code:",worldState.status_code)
+    with open("content/worldState.json",'r',encoding='utf-8') as f:
+        worldState_dict=json.load(f)
 
     event_dict = worldState_dict['Goals']
 
@@ -52,4 +54,4 @@ def event():
             "content": eventContent
             }})
     return eventCard,eventData   
-print(event()[0])
+# print(event()[0])

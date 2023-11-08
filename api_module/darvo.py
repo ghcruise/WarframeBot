@@ -18,9 +18,11 @@ from function.translate_uni2zh import uni2zh
 
 def dailyDeal():
     # darvo_raw = requests.get(f"https://api.warframestat.us/{platform}/en/dailyDeals")
-    worldState = requests.get("http://content.warframe.com/dynamic/worldState.php")
-    worldState_dict = worldState.json()
-    print("[ init ] Darvo. Status Code:",worldState.status_code)
+    # worldState = requests.get("http://content.warframe.com/dynamic/worldState.php")
+    # worldState_dict = worldState.json()
+    # print("[ init ] Darvo. Status Code:",worldState.status_code)
+    with open("content/worldState.json",'r',encoding='utf-8') as f:
+        worldState_dict=json.load(f)
     darvo_dict = worldState_dict['DailyDeals']
     if (darvo_dict == []):
         return None
@@ -67,4 +69,4 @@ def dailyDeal():
       cm = CardMessage(darvoCard)
       return cm,darvo_item,item_discount
 
-print(dailyDeal())
+# print(dailyDeal())

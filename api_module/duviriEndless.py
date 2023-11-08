@@ -11,9 +11,11 @@ with open("translate/wiki_translations.json",'r',encoding='utf-8')as f:
 # print(result)
 
 def endlessCircuit():
-    worldState = requests.get("http://content.warframe.com/dynamic/worldState.php")
-    worldState_dict = worldState.json()
-    print("[ init ] EXC. Status Code:",worldState.status_code)
+    # worldState = requests.get("http://content.warframe.com/dynamic/worldState.php")
+    # worldState_dict = worldState.json()
+    with open("content/worldState.json",'r',encoding='utf-8') as f:
+        worldState_dict=json.load(f)
+    # print("[ init ] EXC. Status Code:",worldState.status_code)
     EXC_expiry = worldState_dict['LiteSorties'][0]['Expiry']['$date']['$numberLong']
     EXC_dict = worldState_dict['EndlessXpChoices']
     EXC_normal = EXC_dict[0]['Choices']
@@ -74,4 +76,4 @@ def endlessCircuit():
     cm = CardMessage(circuitCard)
     return cm
 
-print(endlessCircuit())
+# print(endlessCircuit())

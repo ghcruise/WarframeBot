@@ -1,1 +1,2 @@
-print("\u041f\u043b\u0430\u043d \"\u0411\"")
+from content import get_worldState
+get_worldState

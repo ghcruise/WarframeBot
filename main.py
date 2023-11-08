@@ -23,7 +23,7 @@ from api_module.pushNotification.invasionSort import invasionPush
 from api_module.event import event
 from api_module.alert import alert
 from api_module.pushNotification.fissureSort import fissurePush
-
+from content import get_worldState
 
 with open('config/config.json', 'r', encoding='utf-8') as f1,\
     open('translate/translate_dict.json', 'r', encoding='utf-8') as f2,\
@@ -39,6 +39,11 @@ platform = config['platform']
 channelID = config['notifcationChannelID']
 timestamp = int(time.time())
 
+#获取世界状态
+@bot.task.add_cron(hour='*', minute="0/5")
+async def update_worldState():
+    await get_worldState
+
 #五大平原状态
 @bot.command(name='平原',prefixes=[''])
 async def command_cetus(msg:Message):
@@ -47,7 +52,7 @@ async def command_cetus(msg:Message):
 
 #三傻推送
 cm_eidolon_sub = eidolonHunter()
-@bot.task.add_cron(hour='*', minute="0/2")
+@bot.task.add_cron(hour='*', minute="1/5")
 async def command_eidonlon_sub():
             global cm_eidolon_sub
             cm2 = eidolonHunter()
