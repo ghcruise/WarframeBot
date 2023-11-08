@@ -23,9 +23,11 @@ def event():
     for i in range(len(event_dict)):
         eventID.append(event_dict[i]['_id']['$oid'])
         try:
-            eventNodes.append(f"{solNode(event_dict[i]['Node'])['name']} {solNode(event_dict[i]['Node'])['systemName']}")
+            #eventNodes.append(f"{solNode(event_dict[i]['Node'])['name']} {solNode(event_dict[i]['Node'])['systemName']}")
+            None
         except:
-            eventNodes.append(f"{solNode(event_dict[i]['VictimNode'])['name']} {solNode(event_dict[i]['VictimNode'])['systemName']}")
+            #eventNodes.append(f"{solNode(event_dict[i]['VictimNode'])['name']} {solNode(event_dict[i]['VictimNode'])['systemName']}")
+            None
         eventExpiry.append(event_dict[i]['Expiry']['$date']['$numberLong'])
         eventTag.append(event_dict[i]['Tag'])
         try:
@@ -50,4 +52,4 @@ def event():
             "content": eventContent
             }})
     return eventCard,eventData   
-#print(event()[0])
+print(event()[0])
