@@ -6,6 +6,7 @@ import logging
 from khl import Bot , Message ,EventTypes ,Event
 
 sys.path.append(os.path.join(os.getcwd(), 'api_module'))
+from content.get_worldState import getWorldState
 from function.updateCardmessage import upd_card
 from api_module.plain import plain
 from api_module.arbitration import arbitration
@@ -23,7 +24,7 @@ from api_module.pushNotification.invasionSort import invasionPush
 from api_module.event import event
 from api_module.alert import alert
 from api_module.pushNotification.fissureSort import fissurePush
-from content import get_worldState
+
 
 with open('config/config.json', 'r', encoding='utf-8') as f1,\
     open('translate/translate_dict.json', 'r', encoding='utf-8') as f2,\
@@ -40,9 +41,9 @@ channelID = config['notifcationChannelID']
 timestamp = int(time.time())
 
 #获取世界状态
-@bot.task.add_cron(hour='*', minute="0/5")
+@bot.task.add_cron(hour='*', minute="0/1")
 async def update_worldState():
-    await get_worldState
+    getWorldState()
 
 #五大平原状态
 @bot.command(name='平原',prefixes=[''])

@@ -53,20 +53,23 @@ def getFissures():
                 ]
             }]
     for i in range(len(voidFissureN)):
-        nodeContent = solNode(voidFissureN[i]['Node'])
-        cardContent = f"{voidDict[voidFissureN[i]['Modifier']]} - {nodeContent['type']} - {nodeContent['faction']}\n {nodeContent['name']} - {nodeContent['systemName']}"
-        NCard[0]['modules'].append({
-            "type": "section",
-            "text": {
-                "type": "kmarkdown",
-                "content": cardContent
-            }})
-        NCard[0]['modules'].append({
-            "type": "countdown",
-            "mode": "day",
-            "endTime": int(voidFissureN[i]['Expiry']['$date']['$numberLong'])
-        })
-        NCard[0]['modules'].append({"type": "divider"})
+        if timeNow >= int(voidFissureN[i]['Expiry']['$date']['$numberLong']):
+            continue
+        else:
+            nodeContent = solNode(voidFissureN[i]['Node'])
+            cardContent = f"{voidDict[voidFissureN[i]['Modifier']]} - {nodeContent['type']} - {nodeContent['faction']}\n {nodeContent['name']} - {nodeContent['systemName']}"
+            NCard[0]['modules'].append({
+                "type": "section",
+                "text": {
+                    "type": "kmarkdown",
+                    "content": cardContent
+                }})
+            NCard[0]['modules'].append({
+                "type": "countdown",
+                "mode": "day",
+                "endTime": int(voidFissureN[i]['Expiry']['$date']['$numberLong'])
+            })
+            NCard[0]['modules'].append({"type": "divider"})
     NCard[0]['modules'].append(
     {
         "type": "action-group",
@@ -111,20 +114,23 @@ def getFissures():
                 ]
             }]
     for i in range(len(voidFissureH)):
-        nodeContent = solNode(voidFissureH[i]['Node'])
-        cardContent = f"{voidDict[voidFissureH[i]['Modifier']]} - {nodeContent['type']} - {nodeContent['faction']}\n {nodeContent['name']} - {nodeContent['systemName']}(钢铁之路)"
-        HCard[0]['modules'].append({
-            "type": "section",
-            "text": {
-                "type": "kmarkdown",
-                "content": cardContent
-            }})
-        HCard[0]['modules'].append({
-            "type": "countdown",
-            "mode": "day",
-            "endTime": int(voidFissureH[i]['Expiry']['$date']['$numberLong'])
-        })
-        HCard[0]['modules'].append({"type": "divider"})
+        if timeNow >= int(voidFissureH[i]['Expiry']['$date']['$numberLong']):
+            continue
+        else:
+            nodeContent = solNode(voidFissureH[i]['Node'])
+            cardContent = f"{voidDict[voidFissureH[i]['Modifier']]} - {nodeContent['type']} - {nodeContent['faction']}\n {nodeContent['name']} - {nodeContent['systemName']}(钢铁之路)"
+            HCard[0]['modules'].append({
+                "type": "section",
+                "text": {
+                    "type": "kmarkdown",
+                    "content": cardContent
+                }})
+            HCard[0]['modules'].append({
+                "type": "countdown",
+                "mode": "day",
+                "endTime": int(voidFissureH[i]['Expiry']['$date']['$numberLong'])
+            })
+            HCard[0]['modules'].append({"type": "divider"})
     HCard[0]['modules'].append(
     {
         "type": "action-group",
