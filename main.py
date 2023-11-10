@@ -161,10 +161,24 @@ async def command_dailyDeal_sub():
 #虚空裂缝
 @bot.command(name='裂缝',prefixes=[''])
 async def command_voidfissureN(msg:Message):
-    cm = f"输出测试：{getFissures()[0]}"
-    cm = "test"
-    print(getFissures()[0])
-    await msg.ctx.channel.send(cm)
+    card = [
+    {
+        "type": "card",
+        "theme": "info",
+        "size": "lg",
+        "modules": [
+        {
+            "type": "section",
+            "text": {
+            "type": "kmarkdown",
+            "content": "正在获取信息中..."
+            }
+        }
+        ]
+    }
+    ]
+    temp = await msg.ctx.channel.send(card)
+    await upd_card(temp['msg_id'],getFissures()[0],)
 
 #监听卡片消息点击:虚空裂缝
 @bot.on_event(EventTypes.MESSAGE_BTN_CLICK)
@@ -176,8 +190,24 @@ async def event_voidfissure(_:Bot, e:Event):
 #虚空裂缝
 @bot.command(name='钢铁裂缝',prefixes=[''])
 async def command_voidfissureH(msg:Message):
-    cm = getFissures()[1]
-    await msg.ctx.channel.send(cm)
+    card = [
+    {
+        "type": "card",
+        "theme": "info",
+        "size": "lg",
+        "modules": [
+        {
+            "type": "section",
+            "text": {
+            "type": "kmarkdown",
+            "content": "正在获取信息中..."
+            }
+        }
+        ]
+    }
+    ]
+    temp = await msg.ctx.channel.send(card)
+    await upd_card(temp['msg_id'],getFissures()[1],)
     
 #虚空裂缝
 @bot.command(name='风暴',prefixes=[''])
