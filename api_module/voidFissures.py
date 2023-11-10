@@ -230,4 +230,4 @@ def getFissures():
 
     return NCard,HCard,SCard,voidFissureN,voidFissureH
     
-print(getFissures()[0])
+# print(getFissures()[0])
