@@ -27,7 +27,7 @@ def arbitration():
     try:
         arbitrationStats = requests.get("https://10o.io/arbitrations.json",timeout=(5,5))
     except:
-        print("retry...")
+        print("[Arbtration] retry...")
         arbitration()
     arbitration_dict = arbitrationStats.json()
     print("[ init ] Arbitration. Status code:",arbitrationStats.status_code)
@@ -74,4 +74,4 @@ def arbitration():
     cm = CardMessage(arbitrationCard)
     return cm,push
 # print(arbitration()[0][0]['theme'])
-print(arbitration())
+# print(arbitration())

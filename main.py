@@ -161,8 +161,8 @@ async def command_dailyDeal_sub():
 @bot.command(name='裂缝',prefixes=[''])
 async def command_voidfissureN(msg:Message):
     cm = getFissures()[0]
-    # reply_msg = await msg.reply(cm)
     await msg.ctx.channel.send(cm)
+    # reply_msg = await msg.reply(cm)
     # print(reply_msg['target_id'])
 
 #监听卡片消息点击:虚空裂缝

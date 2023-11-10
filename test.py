@@ -1,2 +1,0 @@
-from content import get_worldState
-get_worldState
