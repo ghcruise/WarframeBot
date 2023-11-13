@@ -90,18 +90,18 @@ async def command_arbitration(msg:Message):
     await msg.ctx.channel.send(cm)
 
 #仲裁推送
-cm_arbtration_sub = arbitration()[0]
-@bot.task.add_cron(hour='0/1', minute="1-5",second="30")
-async def command_arbitration_sub():
-            global cm_arbtration_sub
-            cm2 = arbitration()[0]
-            if (cm2 == cm_arbtration_sub):
-                cm_arbtration_sub = cm2
-                print("same_arb")
-            else:
-                cm_arbtration_sub = cm2
-                ch = await bot.client.fetch_public_channel(channelID)
-                await bot.send(ch,cm2)
+# cm_arbtration_sub = arbitration()[0]
+# @bot.task.add_cron(hour='0/1', minute="1-5",second="30")
+# async def command_arbitration_sub():
+#             global cm_arbtration_sub
+#             cm2 = arbitration()[0]
+#             if (cm2 == cm_arbtration_sub):
+#                 cm_arbtration_sub = cm2
+#                 print("same_arb")
+#             else:
+#                 cm_arbtration_sub = cm2
+#                 ch = await bot.client.fetch_public_channel(channelID)
+#                 await bot.send(ch,cm2)
 
 #仲裁好图推送
 arbitrationPush = 0
