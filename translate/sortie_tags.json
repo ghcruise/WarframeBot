@@ -1,0 +1,38 @@
+{
+    "Modifier":{
+        "SORTIE_MODIFIER_IMPACT":"敌人物理强化 : 冲击",
+        "SORTIE_MODIFIER_PUNCTURE":"敌人物理强化 : 穿刺",
+        "SORTIE_MODIFIER_SLASH":"敌人物理强化 : 切割",
+        "SORTIE_MODIFIER_BLAST":"敌人元素强化 : 爆炸",
+        "SORTIE_MODIFIER_COLD":"敌人元素强化 : 冰冻",
+        "SORTIE_MODIFIER_CORROSIVE":"敌人元素强化 : 腐蚀",
+        "SORTIE_MODIFIER_ELECTRICITY":"敌人元素强化 : 电击",
+        "SORTIE_MODIFIER_GAS":"敌人元素强化 : 毒气",
+        "SORTIE_MODIFIER_HEAT":"敌人元素强化 : 火焰",
+        "SORTIE_MODIFIER_MAGNETIC":"敌人元素强化 : 磁力",
+        "SORTIE_MODIFIER_RADIATION":"敌人元素强化 : 辐射",
+        "SORTIE_MODIFIER_TOXIN":"敌人元素强化 : 毒素",
+        "SORTIE_MODIFIER_VIRAL":"敌人元素强化 : 病毒",
+        "Weapon Restriction: Bow Only":"弓箭 限定",
+        "Weapon Restriction: Pistol Only":"次要 限定",
+        "Weapon Restriction: Assault Rifle Only":"突击步枪 限定",
+        "Weapon Restriction: Sniper Only":"狙击枪 限定",
+        "Weapon Restriction: Shotgun Only":"霰弹枪 限定",
+        "Weapon Restriction: Melee Only":"近战 限定",
+        "Environmental Hazard: Fire":"火灾",
+        "Environmental Hazard: Electromagnetic Anomalies":"电磁异常",
+        "Environmental Hazard: Radiation Pockets":"辐射灾害",
+        "Environmental Effect: Cryogenic Leakage":"低温外泄",
+        "Environmental Effect:  Dense Fog":"浓雾",
+        "Augmented Enemy Armor":"敌人护甲强化",
+        "Enhanced Enemy Shields":"敌人护盾强化",
+        "Energy Reduction":"能量上限减少",
+        "Eximus Stronghold":"卓越者大本营"
+    },
+    "Bosses":{
+        "SORTIE_BOSS_KRIL":"Lech Kril中尉",
+        "SORTIE_BOSS_AMAR":"执刑官欺谋狼主",
+        "SORTIE_BOSS_BOREAL":"执刑官诡文枭主",
+        "SORTIE_BOSS_NIRA":"执刑官混沌蛇主"
+    }
+}
