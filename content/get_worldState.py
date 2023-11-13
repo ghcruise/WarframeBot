@@ -1,4 +1,5 @@
 import urllib
+import datetime
 from urllib.request import urlretrieve
 
 def recu_down(url,filename): # recurrent download with ContentTooShortError
@@ -15,7 +16,7 @@ def getWorldState():
     content=[line.replace('},',"},\n").replace('],','],\n') for line in content[:]]
     with open("content\worldState.json",'w', encoding='utf-8')as f2:
         f2.writelines(content)
-    print("WorldState updated.")
+    print(f"{datetime.datetime.now()} [World] WorldState updated.")
 getWorldState()
 # t = [obj for obj in content['ExportWeapons'] if obj['uniqueName']=="/Lotus/Weapons/Tenno/LongGuns/PrimeSybaris/PrimeSybarisRifle"]
 # print(t)

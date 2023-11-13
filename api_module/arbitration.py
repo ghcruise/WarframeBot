@@ -16,7 +16,7 @@ from function.time2stamp import get_time_stamp
 #     translateCatagory = json.load(f3)
 
 # platform = config['platform']
-
+print("[ init ] Arbitration.")
 
 def arbitration():
     #arbitrationStats = requests.get(f"https://api.warframestat.us/{platform}/en/arbitration")
@@ -30,7 +30,7 @@ def arbitration():
         print("[Arbtration] retry...")
         arbitration()
     arbitration_dict = arbitrationStats.json()
-    print("[ init ] Arbitration. Status code:",arbitrationStats.status_code)
+    print(f"{datetime.datetime.now()} [Arbitration] Done. Status code:{arbitrationStats.status_code}")
     solnode_info = solNode(arbitration_dict[0]['solnode'])
     try:
         _ = pushArbitration.index(arbitration_dict[0]['solnode'])

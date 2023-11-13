@@ -41,6 +41,23 @@ platform = config['platform']
 channelID = config['notifcationChannelID']
 timestamp = int(time.time())
 
+card = [
+    {
+        "type": "card",
+        "theme": "info",
+        "size": "lg",
+        "modules": [
+        {
+            "type": "section",
+            "text": {
+            "type": "kmarkdown",
+            "content": "正在获取信息中..."
+            }
+        }
+        ]
+    }
+    ]
+
 #获取世界状态
 @bot.task.add_cron(hour='*', minute="0/1")
 async def update_worldState():
@@ -161,22 +178,6 @@ async def command_dailyDeal_sub():
 #虚空裂缝
 @bot.command(name='裂缝',prefixes=[''])
 async def command_voidfissureN(msg:Message):
-    card = [
-    {
-        "type": "card",
-        "theme": "info",
-        "size": "lg",
-        "modules": [
-        {
-            "type": "section",
-            "text": {
-            "type": "kmarkdown",
-            "content": "正在获取信息中..."
-            }
-        }
-        ]
-    }
-    ]
     temp = await msg.ctx.channel.send(card)
     await upd_card(temp['msg_id'],getFissures()[0],)
 
@@ -190,22 +191,6 @@ async def event_voidfissure(_:Bot, e:Event):
 #虚空裂缝
 @bot.command(name='钢铁裂缝',prefixes=[''])
 async def command_voidfissureH(msg:Message):
-    card = [
-    {
-        "type": "card",
-        "theme": "info",
-        "size": "lg",
-        "modules": [
-        {
-            "type": "section",
-            "text": {
-            "type": "kmarkdown",
-            "content": "正在获取信息中..."
-            }
-        }
-        ]
-    }
-    ]
     temp = await msg.ctx.channel.send(card)
     await upd_card(temp['msg_id'],getFissures()[1],)
     
@@ -218,8 +203,10 @@ async def command_voidfissureS(msg:Message):
 #午夜电波
 @bot.command(name='电波',prefixes=[''])
 async def command_nightwave(msg:Message):
-    cm = nightWave()
-    await msg.ctx.channel.send(cm)
+    temp = await msg.ctx.channel.send(card)
+    await upd_card(temp['msg_id'],nightWave(),)
+    # cm = nightWave()
+    # await msg.ctx.channel.send(cm)
 
 #奸商
 @bot.command(name='奸商',prefixes=[''])
@@ -285,5 +272,5 @@ async def command_fissurePush():
             await bot.send(ch,cm[0][i])
     fissureID = cm[1]
 
-logging.basicConfig(level='INFO')
+logging.basicConfig(level='FATAL')
 bot.run()

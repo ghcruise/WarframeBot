@@ -1,14 +1,14 @@
 import os
 import sys
 import json
-import requests
+import datetime
 from khl.card import CardMessage
 
 sys.path.append(os.path.join(os.getcwd()))
 # from function.time2stamp import get_time_stamp
 from function.translate_uni2zh import uni2zh
 
-
+print("[ init ] Darvo's daily deal.")
 # with open('config/config.json', 'r', encoding='utf-8') as f1,\
 #     open('translate/translate_dict.json', 'r', encoding='utf-8') as f2:
 #     config = json.load(f1)
@@ -67,6 +67,7 @@ def dailyDeal():
       ]
       }
       cm = CardMessage(darvoCard)
+      print(f"{datetime.datetime.now()} [Dailydeal] Done.")
       return cm,darvo_item,item_discount
 
 # print(dailyDeal())

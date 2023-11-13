@@ -1,7 +1,7 @@
 import requests
 import sys
 import os
-import time
+import datetime
 import json
 from khl.card import CardMessage
 
@@ -82,7 +82,7 @@ def voidTrader():
                     "content": baroContent
                     }})
             j += 1
-        print("Baro arrived!")
+        print(f"{datetime.datetime.now()} [VoidTrader] Baro arrived!")
     except:
         baroNode = translateDict[voidTrader_raw[0]['Node'].replace("HUB","")]
         baroContent = "下次虚空商人到达 : "+baroNode+"中继站"
@@ -103,7 +103,7 @@ def voidTrader():
         "mode": "day",
         "endTime": startTime
         }]}
-        print("Baro is still in void.")
+        print(f"{datetime.datetime.now()} [VoidTrader] Baro is still in void.")
             
     cm = CardMessage(baroCard)
     return cm

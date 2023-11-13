@@ -1,13 +1,16 @@
 import os
 import sys
 import json
-import requests
+import datetime
 
 sys.path.append(os.path.join(os.getcwd()))
 from function.translate_uni2zh import uni2zh
-from function.get_solnode_info import solNode
+# from function.get_solnode_info import solNode
 with open("translate/translate_event.json",'r',encoding="utf-8") as f:
     eventDict = json.load(f)
+
+print("[ init ] Events.")
+
 def event():
     # worldState = requests.get("http://content.warframe.com/dynamic/worldState.php")
     # worldState_dict = worldState.json()
@@ -16,7 +19,7 @@ def event():
         worldState_dict=json.load(f)
 
     event_dict = worldState_dict['Goals']
-
+    print(f"{datetime.datetime.now()} [Events] Done.")
     eventID = []
     eventNodes= []
     eventExpiry = []

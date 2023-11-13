@@ -1,3 +1,5 @@
+# 需要重构
+# To be rebuild
 import requests
 import json
 import os
@@ -45,7 +47,7 @@ def sortie():
   sortieMission3_modifier = teanslateModifier.get(sortieMission3['modifier'],sortieMission3['modifier'])
 
   #sortieContent = "["+sortieBoss+" - "+sortieFaction+"]\n突击一:"+sortieMission1_node+" "+sortieMission1_type+"\n -"+sortieMission1_modifier+"\n突击二:"+sortieMission2_node+" "+sortieMission2_type+"\n -"+sortieMission2_modifier+"\n突击三:"+sortieMission3_node+" "+sortieMission3_type+"\n -"+sortieMission3_modifier
-  sortieContent0 = "突击更新了:\n"+"["+sortieBoss+" - "+sortieFaction+"]"
+  sortieContent0 = "突击信息:\n"+"["+sortieBoss+" - "+sortieFaction+"]"
   sortieContent1 = "突击一:"+sortieMission1_node+" "+sortieMission1_type+"\n - "+sortieMission1_modifier
   sortieContent2 = "突击二:"+sortieMission2_node+" "+sortieMission2_type+"\n - "+sortieMission2_modifier
   sortieContent3 = "突击三:"+sortieMission3_node+" "+sortieMission3_type+"\n - "+sortieMission3_modifier

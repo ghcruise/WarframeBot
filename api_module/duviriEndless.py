@@ -1,7 +1,6 @@
-import requests
+import datetime
 import json
 import re
-from fuzzywuzzy import fuzz
 from khl.card import CardMessage
 
 with open("translate/wiki_translations.json",'r',encoding='utf-8')as f:
@@ -9,13 +8,14 @@ with open("translate/wiki_translations.json",'r',encoding='utf-8')as f:
 # itemName = "DualToxocyst"
 # result = [obj for obj in weapenTranslate['ExportWeapons'] if (fuzz.token_set_ratio(itemName,obj['description'])>90)]
 # print(result)
+print("[ init ] EndlessCircuit.")
 
 def endlessCircuit():
     # worldState = requests.get("http://content.warframe.com/dynamic/worldState.php")
     # worldState_dict = worldState.json()
     with open("content/worldState.json",'r',encoding='utf-8') as f:
         worldState_dict=json.load(f)
-    # print("[ init ] EXC. Status Code:",worldState.status_code)
+    print(f"{datetime.datetime.now()} [EndlessCircuit] Done.")
     EXC_expiry = worldState_dict['LiteSorties'][0]['Expiry']['$date']['$numberLong']
     EXC_dict = worldState_dict['EndlessXpChoices']
     EXC_normal = EXC_dict[0]['Choices']

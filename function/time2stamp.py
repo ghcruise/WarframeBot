@@ -7,3 +7,4 @@ def get_time_stamp(result):
 
 #获取utc时间戳
 #print(int(datetime.datetime.now(datetime.timezone.utc).timestamp()*1000))
+print(datetime.datetime.now())

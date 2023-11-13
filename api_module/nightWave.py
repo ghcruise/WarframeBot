@@ -1,9 +1,9 @@
 #午夜电波官方API
-import requests
 import os
 import sys
 import json
 import re
+import datetime
 #查询电波奖励TODO
 sys.path.append(os.path.join(os.getcwd()))
 from function.time2stamp import get_time_stamp
@@ -11,10 +11,14 @@ from function.time2stamp import get_time_stamp
 with open("content/ExportSortieRewards_zh.json",'r',encoding='utf-8') as f:
     translateChallenge = json.load(f)
 
+print("[ init ] NightWave.")
+
 def nightWave():
-    worldState = requests.get("http://content.warframe.com/dynamic/worldState.php")
-    worldState_dict = worldState.json()
-    print("[ init ] NightWave. Status Code:",worldState.status_code)
+    # worldState = requests.get("http://content.warframe.com/dynamic/worldState.php")
+    # worldState_dict = worldState.json()
+    with open("content/worldState.json",'r',encoding='utf-8') as f:
+        worldState_dict=json.load(f)
+    print(f"{datetime.datetime.now()} [ Nightwave ] Done.")
     nightWave_dict = worldState_dict['SeasonInfo']['ActiveChallenges']
     # print(len(nightWave_dict))
 
@@ -38,7 +42,7 @@ def nightWave():
 
     for i in range(len(nightWave_dict)):
         noraContent = f"{challengeName[i]} - {standing[i]} 声望\n - {challengeContent[i]}"
-        noraExpiry = expiry[i]
+        noraExpiry = int(expiry[i])
         noraCard['modules'].append({
                 "type": "section",
                 "text": {

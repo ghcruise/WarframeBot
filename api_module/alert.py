@@ -1,4 +1,4 @@
-import requests
+import datetime
 import json
 import sys
 import os
@@ -8,6 +8,7 @@ from function.translate_uni2zh import uni2zh
 with open("content/extra/SolNode.json",'r',encoding='utf-8') as f:
     nodeInfo_dict = json.load(f)
 alert_translate = {"LotusGift":"Lotus的赏赐"}
+print("[ init ] Alerts.")
 
 def alert():
     # worldState = requests.get("http://content.warframe.com/dynamic/worldState.php")
@@ -56,6 +57,7 @@ def alert():
             "mode": "day",
             "endTime": int(alertertExpiry[i])
         })
+        print(f"{datetime.datetime.now()} [Alerts] Done")
     return alertCard
 
 # print(alert())

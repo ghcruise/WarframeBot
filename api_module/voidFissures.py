@@ -9,6 +9,7 @@ sys.path.append(os.path.join(os.getcwd()))
 from function.get_solnode_info import solNode
 
 voidDict = {"VoidT1":"古纪","VoidT2":"前纪","VoidT3":"中纪","VoidT4":"后纪","VoidT5":"安魂"}
+print("[ init ] Voidfissures.")
 
 def getFissures():
     # worldState = requests.get("http://content.warframe.com/dynamic/worldState.php")
@@ -21,7 +22,7 @@ def getFissures():
     fissures_dict = sorted(fissures_dict, key=lambda x : x['Region'], reverse=False)
     storms_dict = worldState_dict['VoidStorms']
     timeNow = int(datetime.datetime.now(datetime.timezone.utc).timestamp()*1000)
-    print(f"Now time:{timeNow}")
+    print(f"{datetime.datetime.now()} [Voidfissures] Now time:{timeNow}")
     for i in range(len(storms_dict)):
         storms_dict[i]['Region'] = solNode(storms_dict[i]['Node'])['Region']
     storms_dict = sorted(storms_dict, key=lambda x : x['Region'], reverse=False)
@@ -230,4 +231,4 @@ def getFissures():
     # print(NCard)
     return NCard,HCard,SCard,voidFissureN,voidFissureH
     
-print(getFissures()[2])
+# print(getFissures()[2])
