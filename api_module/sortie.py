@@ -11,7 +11,7 @@ print("[ init ] Sortie.")
 def sortie():
     with open("content/worldState.json",'r',encoding='utf-8') as f:
             worldState_dict=json.load(f)
-    with open("content/extra/Solnode.json",'r',encoding='utf-8') as f:
+    with open("content/extra/SolNode.json",'r',encoding='utf-8') as f:
             node_dict=json.load(f)
     with open("translate/sortie_tags.json",'r',encoding='utf-8') as f:
             tag_dict=json.load(f)
