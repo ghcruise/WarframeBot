@@ -17,6 +17,7 @@ def alert():
     with open("content/worldState.json",'r',encoding='utf-8') as f:
         worldState_dict=json.load(f)
     alert_dict = worldState_dict['Alerts']
+    print(f"{datetime.datetime.now()} [Alerts] Done")
 
     alertID = []
     alertNodes= []
@@ -57,7 +58,6 @@ def alert():
             "mode": "day",
             "endTime": int(alertertExpiry[i])
         })
-        print(f"{datetime.datetime.now()} [Alerts] Done")
     return alertCard
 
 # print(alert())

@@ -29,24 +29,20 @@ A Warframe notification bot based on python
 
 ## 进度-Todo
 - [x] 每日突击 
-    - [x] api来源warframestat.us
-    - [ ] ~~使用官方API~~没必要
+    - [x] 使用官方API
     - [x] 每日推送
 - [x] 每周执刑官猎杀 
     - [x] api来源warframestat.us
     - [ ] ~~使用官方API~~没必要
     - [x] 每周推送  
 - [x] Darvo每日特惠   
-    - [x] ~~api来源warframestat.us~~
     - [x] 使用官方API 
     - [x] 更新推送
 - [x] 午夜电波  
-    - [x] ~~api来源warframestat.us~~
     - [x] 使用官方API
     - [ ] 推送~~看心情写~~
     - [ ] 查询奖励~~你上游戏看一下不就好了~~
-- [x] 虚空裂缝/风暴-~~wfcd~~ 
-    - [x] ~~api来源warframestat.us~~
+- [x] 虚空裂缝/风暴
     - [x] 虚空裂缝/风暴-**使用官方API**
     - [x] 完善SolNode查询(九重天部分)
     - [x] 试一下OKOK卡片消息交互 **可以在卡片中点击切换钢铁之路/虚空风暴的裂缝**
@@ -60,6 +56,7 @@ A Warframe notification bot based on python
 - [x] WarframeMarket查询 
     - [x] 模糊搜索
     - [ ] 紫卡搜索
+    - [ ] 卡片优化
 - [x] 平原相关
     - [x] 夜灵平原/希图斯时间
         - [x] api来源warframestat.us
@@ -69,6 +66,7 @@ A Warframe notification bot based on python
     - [x] 魔胎之境/殁世幽都状态
     - [x] 扎里曼号入侵状态
     - [x] 双衍王境复眠螺旋
+    - [ ] 使用官方API重构
 - [x] 无尽回廊
     - [x] 普通回廊每周战甲
     - [x] 钢铁回廊每周灵化武器
@@ -84,6 +82,7 @@ A Warframe notification bot based on python
 - [ ] 活动
     - [x] 实现
     - [ ] 推送
+- [ ] 图片渲染
  
 ## 部署方法  
 Python 版本>= 3.7

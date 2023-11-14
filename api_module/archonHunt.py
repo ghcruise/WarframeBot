@@ -1,90 +1,62 @@
-# 需要重构
-# To be rebuild
-import requests
 import json
 import os
 import sys
-from khl.card import CardMessage
+import datetime
 
 sys.path.append(os.path.join(os.getcwd()))
-from function.translateNode import translateNode
-from function.time2stamp import get_time_stamp
+from function.get_solnode_info import solNode
+print("[ init ] Archon.")
 
-with open('config/config.json', 'r', encoding='utf-8') as f1,\
-    open('translate/translate_dict.json', 'r', encoding='utf-8') as f2:
-
-    config = json.load(f1)
-    translateDict = json.load(f2)
-
-platform = config['platform']
-
+#func
 def archon():
-  archonHunt_raw = requests.get(f"https://api.warframestat.us/{platform}/en/archonHunt/")
-  print("[ init ] archon. Status code:",archonHunt_raw.status_code)
-  archonHunt_dict = archonHunt_raw.json()
+    with open("content/worldState.json",'r',encoding='utf-8') as f:
+            worldState_dict=json.load(f)
+    with open("content/extra/SolNode.json",'r',encoding='utf-8') as f:
+            node_dict=json.load(f)
+    with open("translate/sortie_tags.json",'r',encoding='utf-8') as f:
+            tag_dict=json.load(f)
 
-  archonBoss = translateDict.get(archonHunt_dict['boss'],archonHunt_dict['boss'])
-  archonFaction = archonHunt_dict['faction']
-  archonExpiry = get_time_stamp(archonHunt_dict['expiry']) * 1000
+    print(f"{datetime.datetime.now()} [Archon] Done.")
+    archon_dict = worldState_dict['LiteSorties'][0]
 
-  archonMission1 = archonHunt_dict['missions'][0]
-  archonMission2 = archonHunt_dict['missions'][1]
-  archonMission3 = archonHunt_dict['missions'][2]
+    archonBoss = tag_dict['Bosses'].get(archon_dict['Boss'],archon_dict['Boss'])
+    archonExpiry = int(archon_dict['Expiry']['$date']['$numberLong'])
 
-  archonMission1_type = translateDict[archonMission1['typeKey']]
-  archonMission2_type = translateDict[archonMission2['typeKey']]
-  archonMission3_type = translateDict[archonMission3['typeKey']]
+    archonMission_node_info = []
+    archonMission_type_info = []
 
-  archonMission1_node = translateNode(archonMission1['node'])
-  archonMission2_node = translateNode(archonMission2['node'])
-  archonMission3_node = translateNode(archonMission3['node'])
+    for i in range(3):
+        archonMission_node_info.append(solNode(archon_dict['Missions'][i]['node']))
+        archonMission_type = [obj for obj in node_dict['missionTypes'] if obj['missionType']==archon_dict['Missions'][i]['missionType']]
+        archonMission_type_info.append(archonMission_type[0]['type'])
 
+    archonCard = [{
+        "type": "card",
+        "theme": "success",
+        "size": "lg",
+        "modules": [
+        {
+            "type": "section",
+            "text": {
+            "type": "kmarkdown",
+            "content": f"执刑官猎杀信息:\n[{archonBoss}]"
+            }
+        }]
+        }]
 
-  #sortieContent = "["+sortieBoss+" - "+sortieFaction+"]\n突击一:"+sortieMission1_node+" "+sortieMission1_type+"\n -"+sortieMission1_modifier+"\n突击二:"+sortieMission2_node+" "+sortieMission2_type+"\n -"+sortieMission2_modifier+"\n突击三:"+sortieMission3_node+" "+sortieMission3_type+"\n -"+sortieMission3_modifier
-  archonContent0 = "["+archonBoss+" - "+translateDict[archonFaction]+"]"
-  archonContent1 = "任务一:"+archonMission1_node+"\n - "+archonMission1_type
-  archonContent2 = "任务二:"+archonMission2_node+"\n - "+archonMission2_type
-  archonContent3 = "任务三:"+archonMission3_node+"\n - "+archonMission3_type
-  archonCard = {
-    "type": "card",
-    "theme": "success",
-    "size": "lg",
-    "modules": [
-      {
-        "type": "section",
-        "text": {
-          "type": "plain-text",
-          "content": archonContent0
-        }
-      },
-      {
-        "type": "section",
-        "text": {
-          "type": "plain-text",
-          "content": archonContent1
-        }
-      },
-      {
-        "type": "section",
-        "text": {
-          "type": "plain-text",
-          "content": archonContent2
-        }
-      },
-      {
-        "type": "section",
-        "text": {
-          "type": "plain-text",
-          "content": archonContent3
-        }
-      },
-
-      {
-        "type": "countdown",
-        "mode": "day",
-        "endTime": archonExpiry
-      }
-    ]
-  }
-  cm = CardMessage(archonCard)
-  return cm
+    num_dict = {"0":"任务一:","1":"任务二:","2":"任务三:"}
+    for i in range(3):
+        archonContent = f"{num_dict[f'{i}']} {archonMission_node_info[i]['name']} - {archonMission_node_info[i]['systemName']}\n - {archonMission_type_info[i]}"
+        archonCard[0]['modules'].append({
+            "type": "section",
+            "text": {
+            "type": "kmarkdown",
+            "content": archonContent
+            }
+        })
+    archonCard[0]['modules'].append({
+            "type": "countdown",
+            "mode": "day",
+            "endTime": archonExpiry
+        })
+    return archonCard
