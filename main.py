@@ -4,7 +4,6 @@ import time
 import json
 import logging
 from khl import Bot , Message ,EventTypes ,Event
-from khl.card import CardMessage
 
 sys.path.append(os.path.join(os.getcwd(), 'api_module'))
 from content.get_worldState import getWorldState

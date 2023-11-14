@@ -18,7 +18,7 @@ def nightWave():
     # worldState_dict = worldState.json()
     with open("content/worldState.json",'r',encoding='utf-8') as f:
         worldState_dict=json.load(f)
-    print(f"{datetime.datetime.now()} [ Nightwave ] Done.")
+    print(f"{datetime.datetime.now()} [Nightwave] Done.")
     nightWave_dict = worldState_dict['SeasonInfo']['ActiveChallenges']
     # print(len(nightWave_dict))
 
