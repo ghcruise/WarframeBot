@@ -1,7 +1,7 @@
 import datetime
 
 def get_time_stamp(result):
-    utct_date1 = datetime.datetime.strptime(result, "%Y-%m-%dT%H:%M:%S.%f%z")
+    utct_date1 = datetime.datetime.strptime(result, "%Y-%m-%dT%H:%M:%S.%fZ")
     time_array1 = utct_date1.timestamp()
     return time_array1
 
