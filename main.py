@@ -271,5 +271,5 @@ async def command_fissurePush():
             await bot.send(ch,cm[0][i])
     fissureID = cm[1]
 
-logging.basicConfig(level='FATAL')
+logging.basicConfig(level='INFO')
 bot.run()
