@@ -31,4 +31,7 @@ else:
     entratiTime = "Vome"
 
 # Solaris : Need mod
+# A cycle: 26m 40s
+# Warm 6m 40s
+# Cold 20m
 
