@@ -1,5 +1,7 @@
 # 需要重构
 # To be rebuild
+# 1700020800 anger ends, envy start
+#  Joy -> Anger -> Envy -> Sorrow ->Fear
 import re
 import json
 import sys
