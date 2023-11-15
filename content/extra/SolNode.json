@@ -20,7 +20,7 @@
     {"missionIndex": 27, "missionType": "MT_EVACUATION", "type": "叛逃"},
     {"missionIndex": 28, "missionType": "MT_LANDSCAPE", "type": "自由漫游"},
     {"missionIndex": 31, "missionType": "", "type": "无尽回廊"},
-    {"missionIndex": 33, "missionType": "MT_DISRUPTION", "type": "中断"},
+    {"missionIndex": 33, "missionType": "MT_ARTIFACT", "type": "中断"},
     {"missionIndex": 34, "missionType": "", "type": "虚空洪流"},
     {"missionIndex": 35, "missionType": "", "type": "虚空覆涌"},
     {"missionIndex": 36, "missionType": "", "type": "虚空决战"}],
