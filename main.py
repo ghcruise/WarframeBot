@@ -24,6 +24,7 @@ from api_module.pushNotification.invasionSort import invasionPush
 from api_module.event import event
 from api_module.alert import alert
 from api_module.pushNotification.fissureSort import fissurePush
+from api_module.cycle import get_cycle
 
 
 with open('config/config.json', 'r', encoding='utf-8') as f1,\
@@ -65,7 +66,7 @@ async def update_worldState():
 #五大平原状态
 @bot.command(name='平原',prefixes=[''])
 async def command_cetus(msg:Message):
-    cm = plain()
+    cm = get_cycle()
     await msg.ctx.channel.send(cm)
 
 #三傻推送
