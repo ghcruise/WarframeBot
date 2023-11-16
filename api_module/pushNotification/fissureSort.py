@@ -23,8 +23,10 @@ def fissurePush():
     pushFissuresN = pushFissures['voidfissures_normal']
     pushFissuresH = pushFissures['voidfissures_hard']
 
-    fissuresN = getFissures()[3]
-    fissuresH = getFissures()[4]
+    fissures = getFissures()
+    fissuresN = fissures[3]
+    fissuresH = fissures[4]
+    # print([fissuresN,fissuresH])
 
     pushListN = [obj for obj in fissuresN if (findNode(obj['Node'],pushFissuresN) is True)]
     pushListH = [obj for obj in fissuresH if (findNode(obj['Node'],pushFissuresH) is True)]
@@ -61,4 +63,3 @@ def fissurePush():
     # print(sortedFissures)
     # print(id)
     return sortedFissures,id
-

@@ -8,7 +8,6 @@ from khl import Bot , Message ,EventTypes ,Event
 sys.path.append(os.path.join(os.getcwd(), 'api_module'))
 from content.get_worldState import getWorldState
 from function.updateCardmessage import upd_card
-from api_module.plain import plain
 from api_module.arbitration import arbitration
 from api_module.sortie import sortie
 from api_module.archonHunt import archon
@@ -40,6 +39,7 @@ bot = Bot(token=config['token'])
 platform = config['platform']
 channelID = config['notifcationChannelID']
 timestamp = int(time.time())
+timeDelta = 8
 
 card = [
     {
@@ -66,8 +66,10 @@ async def update_worldState():
 #五大平原状态
 @bot.command(name='平原',prefixes=[''])
 async def command_cetus(msg:Message):
-    cm = get_cycle()
-    await msg.ctx.channel.send(cm)
+    # cm = get_cycle()
+    # await msg.ctx.channel.send(cm)
+    temp = await msg.ctx.channel.send(card)
+    await upd_card(temp['msg_id'],get_cycle(),)
 
 #三傻推送
 cm_eidolon_sub = eidolonHunter()
@@ -126,7 +128,7 @@ async def command_sortie(msg:Message):
 
 #突击推送
 cm_sortie_sub = sortie()
-@bot.task.add_cron(hour='16-18', minute="5-7")
+@bot.task.add_cron(hour=f"{(16+timeDelta)%24}-{(18+timeDelta)%24}", minute="2-4")
 async def command_sortie_sub():
             global cm_sortie_sub
             cm2 = sortie()
@@ -145,7 +147,7 @@ async def command_archon(msg:Message):
 
 #猎杀推送
 cm_archon_sub = None
-@bot.task.add_cron(day_of_week="MON", hour="0", minute="3-5")
+@bot.task.add_cron(day_of_week="MON", hour=f"{(0+timeDelta)%24}", minute="3-5")
 async def command_archon_sub():
             global cm_archon_sub
             cm2 = archon()

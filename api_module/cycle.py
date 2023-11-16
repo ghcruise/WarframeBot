@@ -64,15 +64,16 @@ def get_cycle():
     # 1700050400000
     # 2023-11-15 20:13:20 -> warm start
     # 1700050800000 -> cold start
+    # needfix
     solarisStatus = {0:"寒冷",1:"温暖"}
     solarisTimeDelta = timeNow - 1700050800000
-    solarisStatusType = int(solarisTimeDelta/1600000)%2
+    solarisStatusType = int((solarisTimeDelta%1600000)/1600000)
     solarisTime = solarisStatus[solarisStatusType]
     if solarisStatusType == 0:
-        solarisExpiry = timeNow - solarisTimeDelta%1600000 +1200000
+        solarisExpiry = 1200000 -(solarisTimeDelta%1600000%1200000) + timeNow
     else:
         solarisExpiry = timeNow - solarisTimeDelta%1600000 + 400000
-    #print([solarisTime,solarisExpiry])
+    print([solarisTime,solarisExpiry])
     solarisCard = [{
             "type": "section",
             "text": {
@@ -135,3 +136,4 @@ def get_cycle():
 
     cycleCard[0]['modules'].extend(cytusCard+solarisCard+zarimanCard+duviriCard)
     return cycleCard
+get_cycle()
