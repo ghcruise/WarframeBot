@@ -64,15 +64,14 @@ def get_cycle():
     # 1700050400000
     # 2023-11-15 20:13:20 -> warm start
     # 1700050800000 -> cold start
-    # needfix
     solarisStatus = {0:"寒冷",1:"温暖"}
     solarisTimeDelta = timeNow - 1700050800000
-    solarisStatusType = int((solarisTimeDelta%1600000)/1600000)
+    solarisStatusType = int((solarisTimeDelta%1600000)/1200000)
     solarisTime = solarisStatus[solarisStatusType]
     if solarisStatusType == 0:
         solarisExpiry = 1200000 -(solarisTimeDelta%1600000%1200000) + timeNow
     else:
-        solarisExpiry = timeNow - solarisTimeDelta%1600000 + 400000
+        solarisExpiry = 1600000 - solarisTimeDelta%1600000 + timeNow
     print([solarisTime,solarisExpiry])
     solarisCard = [{
             "type": "section",
