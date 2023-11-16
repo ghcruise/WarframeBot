@@ -72,7 +72,7 @@ def get_cycle():
         solarisExpiry = 1200000 -(solarisTimeDelta%1600000%1200000) + timeNow
     else:
         solarisExpiry = 1600000 - solarisTimeDelta%1600000 + timeNow
-    print([solarisTime,solarisExpiry])
+    # print([solarisTime,solarisExpiry])
     solarisCard = [{
             "type": "section",
             "text": {
