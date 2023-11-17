@@ -1,4 +1,0 @@
-requests
-khl.py
-python-Levenshtein
-fuzzywuzzy
