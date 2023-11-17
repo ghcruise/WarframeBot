@@ -4,14 +4,12 @@ import os
 import datetime
 sys.path.append(os.path.join(os.getcwd()))
 
-timeNow = int(datetime.datetime.now(datetime.timezone.utc).timestamp()*1000)
-print(timeNow)
-
 #func
 def get_cycle():
     with open("content/worldState.json",'r',encoding='utf-8') as f:
         worldState_dict=json.load(f)
-
+    timeNow = int(datetime.datetime.now(datetime.timezone.utc).timestamp()*1000)
+    print(f"{datetime.datetime.now()} [Cycle] Now time:{timeNow}")
     state_info = [obj for obj in worldState_dict['SyndicateMissions'] if obj['Tag']=="CetusSyndicate"]
     dayStart = int(state_info[0]['Activation']['$date']['$numberLong'])
     dayEnd = int(state_info[0]['Expiry']['$date']['$numberLong'])
@@ -69,7 +67,7 @@ def get_cycle():
     solarisStatusType = int((solarisTimeDelta%1600000)/1200000)
     solarisTime = solarisStatus[solarisStatusType]
     if solarisStatusType == 0:
-        solarisExpiry = 1200000 -(solarisTimeDelta%1600000%1200000) + timeNow
+        solarisExpiry = 1200000 -((solarisTimeDelta%1600000)%1200000) + timeNow
     else:
         solarisExpiry = 1600000 - solarisTimeDelta%1600000 + timeNow
     # print([solarisTime,solarisExpiry])
@@ -135,4 +133,4 @@ def get_cycle():
 
     cycleCard[0]['modules'].extend(cytusCard+solarisCard+zarimanCard+duviriCard)
     return cycleCard
-get_cycle()
+# print(get_cycle())

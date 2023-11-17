@@ -1,0 +1,5 @@
+bilibili_api_python==16.1.1
+fuzzywuzzy==0.18.0
+khl.py==0.3.16
+Pillow==10.0.1
+Requests==2.31.0

@@ -66,10 +66,11 @@ async def update_worldState():
 #五大平原状态
 @bot.command(name='平原',prefixes=[''])
 async def command_cetus(msg:Message):
-    # cm = get_cycle()
-    # await msg.ctx.channel.send(cm)
-    temp = await msg.ctx.channel.send(card)
-    await upd_card(temp['msg_id'],get_cycle(),)
+    cm = get_cycle()
+    # print(cm)
+    await msg.ctx.channel.send(cm)
+    # temp = await msg.ctx.channel.send(card)
+    # await upd_card(temp['msg_id'],get_cycle(),)
 
 #三傻推送
 cm_eidolon_sub = eidolonHunter()
