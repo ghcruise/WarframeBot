@@ -9,8 +9,22 @@ token = Credential(sessdata)
 
 t = sync(dynamic.get_dynamic_page_info(credential=token,host_mid=16730771))
 # d = sync(dynamic.get_dynamic_page_UPs_info(token))
-d= sync(dynamic.Dynamic.get_info(t[3]))
-print(d['item']['modules']['module_dynamic']['major']['opus']['title'])
-print(d['item']['modules']['module_dynamic']['major']['opus']['summary']['text'])
+for i in range(len(t)):
+    d= sync(dynamic.Dynamic.get_info(t[i]))
+    try:
+        d_title = d['item']['modules']['module_dynamic']['major']['opus']['title']
+        d_text = d['item']['modules']['module_dynamic']['major']['opus']['summary']['text']
+    except:
+        d_title = None
+        d_text = None
+    d_id = d['item']['id_str']
+    idBox=[]
+    print(f"\n{d_id}:")
+    if d_title == None:
+        print(d_text)
+    else:
+        print(d_title)
+    idBox.extend(d_id)
+print(idBox)
 # with open("test.json","w",encoding='utf-8') as f:
 #     json.dump(d,f,ensure_ascii=False,indent=4)
