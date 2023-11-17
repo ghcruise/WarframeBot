@@ -107,4 +107,4 @@ def voidTrader():
             
     cm = CardMessage(baroCard)
     return cm
-# print(voidTrader())
+print(voidTrader())

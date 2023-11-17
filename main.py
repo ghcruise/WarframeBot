@@ -215,7 +215,9 @@ async def command_nightwave(msg:Message):
 @bot.command(name='奸商',prefixes=[''])
 async def command_baro(msg:Message):
     cm = voidTrader()
-    await msg.ctx.channel.send(cm)
+    # await msg.ctx.channel.send(cm)
+    temp = await msg.ctx.channel.send(card)
+    await upd_card(temp['msg_id'],cm,)
 
 #wm
 @bot.command(name='wm',prefixes=[''])
