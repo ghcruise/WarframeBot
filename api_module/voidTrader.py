@@ -105,6 +105,6 @@ def voidTrader():
         }]}
         print(f"{datetime.datetime.now()} [VoidTrader] Baro is still in void.")
             
-    cm = CardMessage(baroCard)
+    cm = [baroCard]
     return cm
-print(voidTrader())
+# print(voidTrader())
