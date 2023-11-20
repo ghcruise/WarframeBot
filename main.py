@@ -3,6 +3,7 @@ import sys
 import time
 import json
 import logging
+import asyncio
 from khl import Bot , Message ,EventTypes ,Event
 
 sys.path.append(os.path.join(os.getcwd(), 'api_module'))
@@ -24,6 +25,7 @@ from api_module.event import event
 from api_module.alert import alert
 from api_module.pushNotification.fissureSort import fissurePush
 from api_module.cycle import get_cycle
+from api_module.news.bili import get_news
 
 
 with open('config/config.json', 'r', encoding='utf-8') as f1,\
@@ -276,6 +278,12 @@ async def command_fissurePush():
         except:
             await bot.send(ch,cm[0][i])
     fissureID = cm[1]
+
+#B站动态订阅
+@bot.command(name='动态',prefixes=[''])
+async def command_news(msg:Message,news_order:int=0):
+    cm = await get_news(news_order)
+    await msg.ctx.channel.send(cm[0])
 
 logging.basicConfig(level='INFO')
 bot.run()
