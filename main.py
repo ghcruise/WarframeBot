@@ -3,7 +3,6 @@ import sys
 import time
 import json
 import logging
-import asyncio
 from khl import Bot , Message ,EventTypes ,Event
 
 sys.path.append(os.path.join(os.getcwd(), 'api_module'))
@@ -63,7 +62,7 @@ card = [
 #获取世界状态
 @bot.task.add_cron(hour='*', minute="0/1")
 async def update_worldState():
-    getWorldState()
+    await getWorldState()
 
 #五大平原状态
 @bot.command(name='平原',prefixes=[''])

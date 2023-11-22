@@ -1,7 +1,5 @@
 # ZJM----- uid 16730771
 import json
-import asyncio
-from bilibili_api import sync
 from bilibili_api import Credential
 from bilibili_api import dynamic
 
@@ -70,5 +68,3 @@ async def get_news(i:int=0):
         ]
     }]
     return newsCard,text,link
-# result = asyncio.run(get_news())
-# print(result[0])
