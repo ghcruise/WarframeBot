@@ -62,7 +62,7 @@ card = [
 #获取世界状态
 @bot.task.add_cron(hour='*', minute="0/1")
 async def update_worldState():
-    await getWorldState()
+    getWorldState()
 
 #五大平原状态
 @bot.command(name='平原',prefixes=[''])
@@ -126,7 +126,9 @@ async def command_arbitration_push():
 @bot.command(name='突击',prefixes=[''])
 async def command_sortie(msg:Message):
     cm = sortie()
-    await msg.ctx.channel.send(cm)
+    temp = await msg.ctx.channel.send(card)
+    await upd_card(temp['msg_id'],cm,)
+    # await msg.ctx.channel.send(cm)
 
 #突击推送
 cm_sortie_sub = sortie()
