@@ -1,0 +1,4270 @@
+{
+    "drops": [
+        {
+            "item": "Redirection",
+            "chance": "Uncommon (20.00%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "100X Oxium",
+            "chance": "Uncommon (20.00%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "1,500 Credits Cache",
+            "chance": "Uncommon (20.00%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "50 Endo",
+            "chance": "Uncommon (20.00%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "15X Iradite",
+            "chance": "Uncommon (20.00%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Redirection",
+            "chance": "Uncommon (15.49%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "100X Oxium",
+            "chance": "Uncommon (15.49%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "1,500 Credits Cache",
+            "chance": "Uncommon (15.49%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "50 Endo",
+            "chance": "Uncommon (15.49%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "15X Iradite",
+            "chance": "Uncommon (15.49%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Gara Chassis Blueprint",
+            "chance": "Rare (7.52%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Point Blank",
+            "chance": "Rare (7.52%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Streamline",
+            "chance": "Rare (7.52%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Redirection",
+            "chance": "Uncommon (15.18%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "100X Oxium",
+            "chance": "Uncommon (15.18%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "1,500 Credits Cache",
+            "chance": "Uncommon (15.18%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "50 Endo",
+            "chance": "Uncommon (15.18%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "15X Iradite",
+            "chance": "Uncommon (15.18%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Gara Chassis Blueprint",
+            "chance": "Rare (7.37%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Point Blank",
+            "chance": "Rare (7.37%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Streamline",
+            "chance": "Rare (7.37%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "2X Morphics",
+            "chance": "Rare (2.01%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Gara Chassis Blueprint",
+            "chance": "Uncommon (30.56%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Point Blank",
+            "chance": "Uncommon (30.56%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Streamline",
+            "chance": "Uncommon (30.56%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "2X Morphics",
+            "chance": "Rare (8.33%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Pressure Point",
+            "chance": "Uncommon (20.00%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "100X Cryotic",
+            "chance": "Uncommon (20.00%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "1,500 Credits Cache",
+            "chance": "Uncommon (20.00%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "50 Endo",
+            "chance": "Uncommon (20.00%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "15X Grokdrul",
+            "chance": "Uncommon (20.00%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Pressure Point",
+            "chance": "Uncommon (15.49%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "100X Cryotic",
+            "chance": "Uncommon (15.49%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "1,500 Credits Cache",
+            "chance": "Uncommon (15.49%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "50 Endo",
+            "chance": "Uncommon (15.49%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "15X Grokdrul",
+            "chance": "Uncommon (15.49%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Gara Chassis Blueprint",
+            "chance": "Rare (7.52%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Hornet Strike",
+            "chance": "Rare (7.52%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Stretch",
+            "chance": "Rare (7.52%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Pressure Point",
+            "chance": "Uncommon (15.18%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "100X Cryotic",
+            "chance": "Uncommon (15.18%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "1,500 Credits Cache",
+            "chance": "Uncommon (15.18%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "50 Endo",
+            "chance": "Uncommon (15.18%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "15X Grokdrul",
+            "chance": "Uncommon (15.18%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Gara Chassis Blueprint",
+            "chance": "Rare (7.37%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Hornet Strike",
+            "chance": "Rare (7.37%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Stretch",
+            "chance": "Rare (7.37%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "2X Morphics",
+            "chance": "Rare (2.01%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Gara Chassis Blueprint",
+            "chance": "Uncommon (30.56%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Hornet Strike",
+            "chance": "Uncommon (30.56%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Stretch",
+            "chance": "Uncommon (30.56%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "2X Morphics",
+            "chance": "Rare (8.33%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Vitality",
+            "chance": "Uncommon (20.00%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "200X Plastids",
+            "chance": "Uncommon (20.00%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "1,500 Credits Cache",
+            "chance": "Uncommon (20.00%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "50 Endo",
+            "chance": "Uncommon (20.00%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "15X Nistlepod",
+            "chance": "Uncommon (20.00%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Vitality",
+            "chance": "Uncommon (15.49%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "200X Plastids",
+            "chance": "Uncommon (15.49%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "1,500 Credits Cache",
+            "chance": "Uncommon (15.49%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "50 Endo",
+            "chance": "Uncommon (15.49%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "15X Nistlepod",
+            "chance": "Uncommon (15.49%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Gara Chassis Blueprint",
+            "chance": "Rare (7.52%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Point Blank",
+            "chance": "Rare (7.52%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Intensify",
+            "chance": "Rare (7.52%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Vitality",
+            "chance": "Uncommon (15.18%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "200X Plastids",
+            "chance": "Uncommon (15.18%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "1,500 Credits Cache",
+            "chance": "Uncommon (15.18%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "50 Endo",
+            "chance": "Uncommon (15.18%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "15X Nistlepod",
+            "chance": "Uncommon (15.18%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Gara Chassis Blueprint",
+            "chance": "Rare (7.37%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Point Blank",
+            "chance": "Rare (7.37%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Intensify",
+            "chance": "Rare (7.37%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "2X Gallium",
+            "chance": "Rare (2.01%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Gara Chassis Blueprint",
+            "chance": "Uncommon (30.56%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Point Blank",
+            "chance": "Uncommon (30.56%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Intensify",
+            "chance": "Uncommon (30.56%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "2X Gallium",
+            "chance": "Rare (8.33%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Steel Fiber",
+            "chance": "Uncommon (25.00%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "200X Oxium",
+            "chance": "Uncommon (25.00%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "2,500 Credits Cache",
+            "chance": "Uncommon (25.00%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "100 Endo",
+            "chance": "Uncommon (25.00%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Steel Fiber",
+            "chance": "Uncommon (15.97%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "200X Oxium",
+            "chance": "Uncommon (15.97%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "2,500 Credits Cache",
+            "chance": "Uncommon (15.97%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "100 Endo",
+            "chance": "Uncommon (15.97%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Gara Systems Blueprint",
+            "chance": "Uncommon (10.08%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Charged Chamber",
+            "chance": "Uncommon (10.08%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Burning Wasp",
+            "chance": "Uncommon (10.08%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Aya",
+            "chance": "Rare (5.88%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Steel Fiber",
+            "chance": "Uncommon (15.32%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "200X Oxium",
+            "chance": "Uncommon (15.32%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "2,500 Credits Cache",
+            "chance": "Uncommon (15.32%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "100 Endo",
+            "chance": "Uncommon (15.32%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Gara Systems Blueprint",
+            "chance": "Rare (9.68%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Charged Chamber",
+            "chance": "Rare (9.68%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Burning Wasp",
+            "chance": "Rare (9.68%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Aya",
+            "chance": "Rare (5.65%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "2X Control Module",
+            "chance": "Rare (4.03%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Gara Systems Blueprint",
+            "chance": "Uncommon (25.00%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Charged Chamber",
+            "chance": "Uncommon (25.00%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Burning Wasp",
+            "chance": "Uncommon (25.00%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Aya",
+            "chance": "Uncommon (14.58%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "2X Control Module",
+            "chance": "Uncommon (10.42%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Energy Inversion",
+            "chance": "Uncommon (25.00%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "200X Cryotic",
+            "chance": "Uncommon (25.00%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "2,500 Credits Cache",
+            "chance": "Uncommon (25.00%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "100 Endo",
+            "chance": "Uncommon (25.00%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Energy Inversion",
+            "chance": "Uncommon (15.97%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "200X Cryotic",
+            "chance": "Uncommon (15.97%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "2,500 Credits Cache",
+            "chance": "Uncommon (15.97%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "100 Endo",
+            "chance": "Uncommon (15.97%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Gara Systems Blueprint",
+            "chance": "Uncommon (10.08%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Speed Trigger",
+            "chance": "Uncommon (10.08%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Reaping Spiral",
+            "chance": "Uncommon (10.08%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Aya",
+            "chance": "Rare (5.88%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Energy Inversion",
+            "chance": "Uncommon (15.32%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "200X Cryotic",
+            "chance": "Uncommon (15.32%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "2,500 Credits Cache",
+            "chance": "Uncommon (15.32%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "100 Endo",
+            "chance": "Uncommon (15.32%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Gara Systems Blueprint",
+            "chance": "Rare (9.68%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Speed Trigger",
+            "chance": "Rare (9.68%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Reaping Spiral",
+            "chance": "Rare (9.68%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Aya",
+            "chance": "Rare (5.65%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "2X Neural Sensors",
+            "chance": "Rare (4.03%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Gara Systems Blueprint",
+            "chance": "Uncommon (25.00%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Speed Trigger",
+            "chance": "Uncommon (25.00%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Reaping Spiral",
+            "chance": "Uncommon (25.00%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Aya",
+            "chance": "Uncommon (14.58%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "2X Neural Sensors",
+            "chance": "Uncommon (10.42%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Point Strike",
+            "chance": "Uncommon (25.00%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "300X Circuits",
+            "chance": "Uncommon (25.00%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "2,500 Credits Cache",
+            "chance": "Uncommon (25.00%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "100 Endo",
+            "chance": "Uncommon (25.00%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Point Strike",
+            "chance": "Uncommon (15.97%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "300X Circuits",
+            "chance": "Uncommon (15.97%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "2,500 Credits Cache",
+            "chance": "Uncommon (15.97%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "100 Endo",
+            "chance": "Uncommon (15.97%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Gara Systems Blueprint",
+            "chance": "Uncommon (10.08%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Enhanced Durability",
+            "chance": "Uncommon (10.08%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Grim Fury",
+            "chance": "Uncommon (10.08%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Aya",
+            "chance": "Rare (5.88%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Point Strike",
+            "chance": "Uncommon (15.32%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "300X Circuits",
+            "chance": "Uncommon (15.32%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "2,500 Credits Cache",
+            "chance": "Uncommon (15.32%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "100 Endo",
+            "chance": "Uncommon (15.32%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Gara Systems Blueprint",
+            "chance": "Rare (9.68%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Enhanced Durability",
+            "chance": "Rare (9.68%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Grim Fury",
+            "chance": "Rare (9.68%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Aya",
+            "chance": "Rare (5.65%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "2X Orokin Cell",
+            "chance": "Rare (4.03%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Gara Systems Blueprint",
+            "chance": "Uncommon (25.00%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Enhanced Durability",
+            "chance": "Uncommon (25.00%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Grim Fury",
+            "chance": "Uncommon (25.00%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Aya",
+            "chance": "Uncommon (14.58%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "2X Orokin Cell",
+            "chance": "Uncommon (10.42%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Gladiator Aegis",
+            "chance": "Uncommon (27.59%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Madurai Lens",
+            "chance": "Uncommon (13.79%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Cetus Wisp",
+            "chance": "Uncommon (29.31%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "200 Endo",
+            "chance": "Uncommon (29.31%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Gladiator Aegis",
+            "chance": "Uncommon (18.08%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Madurai Lens",
+            "chance": "Rare (9.04%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Cetus Wisp",
+            "chance": "Uncommon (19.21%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "200 Endo",
+            "chance": "Uncommon (19.21%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Gara Neuroptics Blueprint",
+            "chance": "Rare (9.04%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Augur Accord",
+            "chance": "Rare (9.04%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Revenant Systems Blueprint",
+            "chance": "Rare (9.04%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Aya",
+            "chance": "Rare (7.34%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Gladiator Aegis",
+            "chance": "Uncommon (17.68%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Madurai Lens",
+            "chance": "Rare (8.84%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Cetus Wisp",
+            "chance": "Uncommon (18.78%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "200 Endo",
+            "chance": "Uncommon (18.78%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Gara Neuroptics Blueprint",
+            "chance": "Rare (8.84%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Augur Accord",
+            "chance": "Rare (8.84%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Revenant Systems Blueprint",
+            "chance": "Rare (8.84%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Aya",
+            "chance": "Rare (7.18%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Vigilante Supplies",
+            "chance": "Rare (2.21%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Gara Neuroptics Blueprint",
+            "chance": "Uncommon (24.62%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Augur Accord",
+            "chance": "Uncommon (24.62%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Revenant Systems Blueprint",
+            "chance": "Uncommon (24.62%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Aya",
+            "chance": "Uncommon (20.00%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Vigilante Supplies",
+            "chance": "Rare (6.15%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Vigilante Armaments",
+            "chance": "Common (35.19%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Vazarin Lens",
+            "chance": "Uncommon (14.81%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Unairu Lens",
+            "chance": "Uncommon (14.81%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "200 Endo",
+            "chance": "Common (35.19%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Vigilante Armaments",
+            "chance": "Uncommon (22.09%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Vazarin Lens",
+            "chance": "Rare (9.30%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Unairu Lens",
+            "chance": "Rare (9.30%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "200 Endo",
+            "chance": "Uncommon (22.09%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Gara Neuroptics Blueprint",
+            "chance": "Rare (9.30%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Gladiator Might",
+            "chance": "Rare (9.30%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Revenant Systems Blueprint",
+            "chance": "Uncommon (10.47%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Aya",
+            "chance": "Rare (8.14%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Vigilante Armaments",
+            "chance": "Uncommon (21.59%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Vazarin Lens",
+            "chance": "Rare (9.09%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Unairu Lens",
+            "chance": "Rare (9.09%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "200 Endo",
+            "chance": "Uncommon (21.59%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Gara Neuroptics Blueprint",
+            "chance": "Rare (9.09%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Gladiator Might",
+            "chance": "Rare (9.09%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Revenant Systems Blueprint",
+            "chance": "Uncommon (10.23%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Aya",
+            "chance": "Rare (7.95%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Augur Seeker",
+            "chance": "Rare (2.27%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Gara Neuroptics Blueprint",
+            "chance": "Uncommon (23.53%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Gladiator Might",
+            "chance": "Uncommon (23.53%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Revenant Systems Blueprint",
+            "chance": "Uncommon (26.47%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Aya",
+            "chance": "Uncommon (20.59%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Augur Seeker",
+            "chance": "Rare (5.88%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Augur Pact",
+            "chance": "Common (35.19%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Naramon Lens",
+            "chance": "Uncommon (14.81%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Zenurik Lens",
+            "chance": "Uncommon (14.81%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "200 Endo",
+            "chance": "Common (35.19%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Augur Pact",
+            "chance": "Uncommon (21.97%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Naramon Lens",
+            "chance": "Rare (9.25%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Zenurik Lens",
+            "chance": "Rare (9.25%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "200 Endo",
+            "chance": "Uncommon (21.97%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Gara Neuroptics Blueprint",
+            "chance": "Uncommon (10.40%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Vigilante Fervor",
+            "chance": "Rare (9.25%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Revenant Systems Blueprint",
+            "chance": "Rare (9.25%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Aya",
+            "chance": "Rare (8.67%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Augur Pact",
+            "chance": "Uncommon (21.47%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Naramon Lens",
+            "chance": "Rare (9.04%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Zenurik Lens",
+            "chance": "Rare (9.04%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "200 Endo",
+            "chance": "Uncommon (21.47%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Gara Neuroptics Blueprint",
+            "chance": "Uncommon (10.17%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Vigilante Fervor",
+            "chance": "Rare (9.04%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Revenant Systems Blueprint",
+            "chance": "Rare (9.04%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Aya",
+            "chance": "Rare (8.47%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Gladiator Vice",
+            "chance": "Rare (2.26%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Gara Neuroptics Blueprint",
+            "chance": "Uncommon (26.09%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Vigilante Fervor",
+            "chance": "Uncommon (23.19%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Revenant Systems Blueprint",
+            "chance": "Uncommon (23.19%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Aya",
+            "chance": "Uncommon (21.74%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Gladiator Vice",
+            "chance": "Rare (5.80%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Gladiator Rush",
+            "chance": "Common (35.19%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Unairu Lens",
+            "chance": "Uncommon (14.81%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Madurai Lens",
+            "chance": "Uncommon (14.81%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "300 Endo",
+            "chance": "Common (35.19%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Gladiator Rush",
+            "chance": "Uncommon (21.35%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Unairu Lens",
+            "chance": "Rare (8.99%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Madurai Lens",
+            "chance": "Rare (8.99%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "300 Endo",
+            "chance": "Uncommon (21.35%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Cetus Wisp",
+            "chance": "Uncommon (10.11%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Augur Reach",
+            "chance": "Rare (8.99%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Revenant Chassis Blueprint",
+            "chance": "Rare (8.99%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Aya",
+            "chance": "Uncommon (11.24%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Gladiator Rush",
+            "chance": "Uncommon (20.88%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Unairu Lens",
+            "chance": "Rare (8.79%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Madurai Lens",
+            "chance": "Rare (8.79%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "300 Endo",
+            "chance": "Uncommon (20.88%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Cetus Wisp",
+            "chance": "Rare (9.89%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Augur Reach",
+            "chance": "Rare (8.79%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Revenant Chassis Blueprint",
+            "chance": "Rare (8.79%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Aya",
+            "chance": "Uncommon (10.99%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Vigilante Offense",
+            "chance": "Rare (2.20%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Cetus Wisp",
+            "chance": "Uncommon (24.32%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Augur Reach",
+            "chance": "Uncommon (21.62%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Revenant Chassis Blueprint",
+            "chance": "Uncommon (21.62%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Aya",
+            "chance": "Uncommon (27.03%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Vigilante Offense",
+            "chance": "Rare (5.41%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Vigilante Vigor",
+            "chance": "Common (35.19%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Zenurik Lens",
+            "chance": "Uncommon (14.81%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Vazarin Lens",
+            "chance": "Uncommon (14.81%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "300 Endo",
+            "chance": "Common (35.19%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Vigilante Vigor",
+            "chance": "Uncommon (21.35%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Zenurik Lens",
+            "chance": "Rare (8.99%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Vazarin Lens",
+            "chance": "Rare (8.99%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "300 Endo",
+            "chance": "Uncommon (21.35%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Cetus Wisp",
+            "chance": "Uncommon (10.11%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Gladiator Resolve",
+            "chance": "Rare (8.99%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Revenant Chassis Blueprint",
+            "chance": "Rare (8.99%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Aya",
+            "chance": "Uncommon (11.24%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Vigilante Vigor",
+            "chance": "Uncommon (20.88%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Zenurik Lens",
+            "chance": "Rare (8.79%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Vazarin Lens",
+            "chance": "Rare (8.79%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "300 Endo",
+            "chance": "Uncommon (20.88%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Cetus Wisp",
+            "chance": "Rare (9.89%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Gladiator Resolve",
+            "chance": "Rare (8.79%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Revenant Chassis Blueprint",
+            "chance": "Rare (8.79%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Aya",
+            "chance": "Uncommon (10.99%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Augur Secrets",
+            "chance": "Rare (2.20%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Cetus Wisp",
+            "chance": "Uncommon (24.32%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Gladiator Resolve",
+            "chance": "Uncommon (21.62%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Revenant Chassis Blueprint",
+            "chance": "Uncommon (21.62%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Aya",
+            "chance": "Uncommon (27.03%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Augur Secrets",
+            "chance": "Rare (5.41%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Augur Message",
+            "chance": "Uncommon (29.31%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "100X Kuva",
+            "chance": "Uncommon (27.59%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Naramon Lens",
+            "chance": "Uncommon (13.79%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "300 Endo",
+            "chance": "Uncommon (29.31%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Augur Message",
+            "chance": "Uncommon (18.48%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "100X Kuva",
+            "chance": "Uncommon (17.39%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Naramon Lens",
+            "chance": "Rare (8.70%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "300 Endo",
+            "chance": "Uncommon (18.48%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Cetus Wisp",
+            "chance": "Rare (8.70%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Vigilante Pursuit",
+            "chance": "Rare (8.70%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Revenant Chassis Blueprint",
+            "chance": "Rare (8.70%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Aya",
+            "chance": "Uncommon (10.87%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Augur Message",
+            "chance": "Uncommon (18.09%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "100X Kuva",
+            "chance": "Uncommon (17.02%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Naramon Lens",
+            "chance": "Rare (8.51%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "300 Endo",
+            "chance": "Uncommon (18.09%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Cetus Wisp",
+            "chance": "Rare (8.51%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Vigilante Pursuit",
+            "chance": "Rare (8.51%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Revenant Chassis Blueprint",
+            "chance": "Rare (8.51%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Aya",
+            "chance": "Uncommon (10.64%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Gladiator Finesse",
+            "chance": "Rare (2.13%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Cetus Wisp",
+            "chance": "Uncommon (22.22%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Vigilante Pursuit",
+            "chance": "Uncommon (22.22%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Revenant Chassis Blueprint",
+            "chance": "Uncommon (22.22%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Aya",
+            "chance": "Uncommon (27.78%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Gladiator Finesse",
+            "chance": "Rare (5.56%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "5X Breath Of The Eidolon",
+            "chance": "Common (50.00%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "400 Endo",
+            "chance": "Common (50.00%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "5X Breath Of The Eidolon",
+            "chance": "Uncommon (21.74%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "400 Endo",
+            "chance": "Uncommon (21.74%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "2X Cetus Wisp",
+            "chance": "Uncommon (17.39%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "300X Kuva",
+            "chance": "Rare (6.09%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Aya",
+            "chance": "Common (33.04%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "5X Breath Of The Eidolon",
+            "chance": "Uncommon (16.89%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "400 Endo",
+            "chance": "Uncommon (16.89%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "2X Cetus Wisp",
+            "chance": "Uncommon (13.51%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "300X Kuva",
+            "chance": "Rare (4.73%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Aya",
+            "chance": "Uncommon (25.68%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Furax Wraith Left Gauntlet",
+            "chance": "Rare (5.41%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Carving Mantis",
+            "chance": "Rare (5.41%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Eidolon Lens Blueprint",
+            "chance": "Rare (4.73%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Revenant Neuroptics Blueprint",
+            "chance": "Rare (6.76%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "2X Cetus Wisp",
+            "chance": "Uncommon (20.41%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "300X Kuva",
+            "chance": "Rare (7.14%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Aya",
+            "chance": "Common (38.78%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Furax Wraith Left Gauntlet",
+            "chance": "Rare (8.16%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Carving Mantis",
+            "chance": "Rare (8.16%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Eidolon Lens Blueprint",
+            "chance": "Rare (7.14%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Revenant Neuroptics Blueprint",
+            "chance": "Uncommon (10.20%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "5X Breath Of The Eidolon",
+            "chance": "Common (50.00%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "400 Endo",
+            "chance": "Common (50.00%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "5X Breath Of The Eidolon",
+            "chance": "Uncommon (21.74%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "400 Endo",
+            "chance": "Uncommon (21.74%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "2X Cetus Wisp",
+            "chance": "Uncommon (17.39%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "300X Kuva",
+            "chance": "Rare (6.09%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Aya",
+            "chance": "Common (33.04%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "5X Breath Of The Eidolon",
+            "chance": "Uncommon (16.89%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "400 Endo",
+            "chance": "Uncommon (16.89%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "2X Cetus Wisp",
+            "chance": "Uncommon (13.51%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "300X Kuva",
+            "chance": "Rare (4.73%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Aya",
+            "chance": "Uncommon (25.68%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Furax Wraith Right Gauntlet",
+            "chance": "Rare (5.41%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Swooping Falcon",
+            "chance": "Rare (5.41%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Eidolon Lens Blueprint",
+            "chance": "Rare (4.73%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Revenant Neuroptics Blueprint",
+            "chance": "Rare (6.76%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "2X Cetus Wisp",
+            "chance": "Uncommon (20.41%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "300X Kuva",
+            "chance": "Rare (7.14%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Aya",
+            "chance": "Common (38.78%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Furax Wraith Right Gauntlet",
+            "chance": "Rare (8.16%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Swooping Falcon",
+            "chance": "Rare (8.16%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Eidolon Lens Blueprint",
+            "chance": "Rare (7.14%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Revenant Neuroptics Blueprint",
+            "chance": "Uncommon (10.20%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "5X Breath Of The Eidolon",
+            "chance": "Common (50.00%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "400 Endo",
+            "chance": "Common (50.00%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "5X Breath Of The Eidolon",
+            "chance": "Uncommon (21.74%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "400 Endo",
+            "chance": "Uncommon (21.74%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "2X Cetus Wisp",
+            "chance": "Uncommon (17.39%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "300X Kuva",
+            "chance": "Rare (6.09%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Aya",
+            "chance": "Common (33.04%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "5X Breath Of The Eidolon",
+            "chance": "Uncommon (16.89%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "400 Endo",
+            "chance": "Uncommon (16.89%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "2X Cetus Wisp",
+            "chance": "Uncommon (13.51%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "300X Kuva",
+            "chance": "Rare (4.73%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Aya",
+            "chance": "Uncommon (25.68%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Furax Wraith Blueprint",
+            "chance": "Rare (5.41%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Twirling Spire",
+            "chance": "Rare (5.41%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Eidolon Lens Blueprint",
+            "chance": "Rare (4.73%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Revenant Neuroptics Blueprint",
+            "chance": "Rare (6.76%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "2X Cetus Wisp",
+            "chance": "Uncommon (20.41%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "300X Kuva",
+            "chance": "Rare (7.14%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Aya",
+            "chance": "Common (38.78%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Furax Wraith Blueprint",
+            "chance": "Rare (8.16%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Twirling Spire",
+            "chance": "Rare (8.16%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Eidolon Lens Blueprint",
+            "chance": "Rare (7.14%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Revenant Neuroptics Blueprint",
+            "chance": "Uncommon (10.20%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "5X Breath Of The Eidolon",
+            "chance": "Common (50.00%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "400 Endo",
+            "chance": "Common (50.00%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "5X Breath Of The Eidolon",
+            "chance": "Uncommon (21.74%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "400 Endo",
+            "chance": "Uncommon (21.74%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "2X Cetus Wisp",
+            "chance": "Uncommon (17.39%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "300X Kuva",
+            "chance": "Rare (6.09%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Aya",
+            "chance": "Common (33.04%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "5X Breath Of The Eidolon",
+            "chance": "Uncommon (16.89%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "400 Endo",
+            "chance": "Uncommon (16.89%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "2X Cetus Wisp",
+            "chance": "Uncommon (13.51%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "300X Kuva",
+            "chance": "Rare (4.73%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Aya",
+            "chance": "Uncommon (25.68%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Furax Wraith Left Gauntlet",
+            "chance": "Rare (5.41%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Carving Mantis",
+            "chance": "Rare (5.41%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Eidolon Lens Blueprint",
+            "chance": "Rare (4.73%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Revenant Neuroptics Blueprint",
+            "chance": "Rare (6.76%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "2X Cetus Wisp",
+            "chance": "Uncommon (20.41%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "300X Kuva",
+            "chance": "Rare (7.14%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Aya",
+            "chance": "Common (38.78%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Furax Wraith Left Gauntlet",
+            "chance": "Rare (8.16%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Carving Mantis",
+            "chance": "Rare (8.16%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Eidolon Lens Blueprint",
+            "chance": "Rare (7.14%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Revenant Neuroptics Blueprint",
+            "chance": "Uncommon (10.20%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "5X Breath Of The Eidolon",
+            "chance": "Common (50.00%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "400 Endo",
+            "chance": "Common (50.00%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "5X Breath Of The Eidolon",
+            "chance": "Uncommon (21.74%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "400 Endo",
+            "chance": "Uncommon (21.74%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "2X Cetus Wisp",
+            "chance": "Uncommon (17.39%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "300X Kuva",
+            "chance": "Rare (6.09%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Aya",
+            "chance": "Common (33.04%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "5X Breath Of The Eidolon",
+            "chance": "Uncommon (16.89%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "400 Endo",
+            "chance": "Uncommon (16.89%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "2X Cetus Wisp",
+            "chance": "Uncommon (13.51%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "300X Kuva",
+            "chance": "Rare (4.73%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Aya",
+            "chance": "Uncommon (25.68%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Furax Wraith Right Gauntlet",
+            "chance": "Rare (5.41%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Swooping Falcon",
+            "chance": "Rare (5.41%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Eidolon Lens Blueprint",
+            "chance": "Rare (4.73%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Revenant Neuroptics Blueprint",
+            "chance": "Rare (6.76%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "2X Cetus Wisp",
+            "chance": "Uncommon (20.41%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "300X Kuva",
+            "chance": "Rare (7.14%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Aya",
+            "chance": "Common (38.78%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Furax Wraith Right Gauntlet",
+            "chance": "Rare (8.16%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Swooping Falcon",
+            "chance": "Rare (8.16%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Eidolon Lens Blueprint",
+            "chance": "Rare (7.14%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Revenant Neuroptics Blueprint",
+            "chance": "Uncommon (10.20%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "5X Breath Of The Eidolon",
+            "chance": "Common (50.00%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "400 Endo",
+            "chance": "Common (50.00%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "5X Breath Of The Eidolon",
+            "chance": "Uncommon (21.74%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "400 Endo",
+            "chance": "Uncommon (21.74%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "2X Cetus Wisp",
+            "chance": "Uncommon (17.39%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "300X Kuva",
+            "chance": "Rare (6.09%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Aya",
+            "chance": "Common (33.04%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "5X Breath Of The Eidolon",
+            "chance": "Uncommon (16.89%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "400 Endo",
+            "chance": "Uncommon (16.89%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "2X Cetus Wisp",
+            "chance": "Uncommon (13.51%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "300X Kuva",
+            "chance": "Rare (4.73%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Aya",
+            "chance": "Uncommon (25.68%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Furax Wraith Blueprint",
+            "chance": "Rare (5.41%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Twirling Spire",
+            "chance": "Rare (5.41%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Eidolon Lens Blueprint",
+            "chance": "Rare (4.73%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Revenant Neuroptics Blueprint",
+            "chance": "Rare (6.76%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "2X Cetus Wisp",
+            "chance": "Uncommon (20.41%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "300X Kuva",
+            "chance": "Rare (7.14%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Aya",
+            "chance": "Common (38.78%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Furax Wraith Blueprint",
+            "chance": "Rare (8.16%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Twirling Spire",
+            "chance": "Rare (8.16%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Eidolon Lens Blueprint",
+            "chance": "Rare (7.14%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Revenant Neuroptics Blueprint",
+            "chance": "Uncommon (10.20%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Amar's Anguish",
+            "chance": "Uncommon (20.00%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Narmer Isoplast",
+            "chance": "Common (33.33%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "600 Endo",
+            "chance": "Common (46.67%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Amar's Anguish",
+            "chance": "Rare (8.11%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Narmer Isoplast",
+            "chance": "Uncommon (13.51%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "600 Endo",
+            "chance": "Uncommon (18.92%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Caliban Systems Blueprint",
+            "chance": "Rare (8.11%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Boreal's Hatred",
+            "chance": "Uncommon (13.51%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "2X Narmer Isoplast",
+            "chance": "Uncommon (18.92%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "900 Endo",
+            "chance": "Uncommon (18.92%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Amar's Anguish",
+            "chance": "Rare (5.45%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Narmer Isoplast",
+            "chance": "Rare (9.09%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "600 Endo",
+            "chance": "Uncommon (12.73%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Caliban Systems Blueprint",
+            "chance": "Rare (5.45%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Boreal's Hatred",
+            "chance": "Rare (9.09%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "2X Narmer Isoplast",
+            "chance": "Uncommon (12.73%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "900 Endo",
+            "chance": "Uncommon (12.73%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Nira's Contempt",
+            "chance": "Rare (5.45%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Verdilac Blueprint",
+            "chance": "Rare (5.45%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "3X Narmer Isoplast",
+            "chance": "Rare (9.09%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "1200 Endo",
+            "chance": "Uncommon (12.73%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Caliban Systems Blueprint",
+            "chance": "Rare (7.50%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Boreal's Hatred",
+            "chance": "Uncommon (12.50%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "2X Narmer Isoplast",
+            "chance": "Uncommon (17.50%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "900 Endo",
+            "chance": "Uncommon (17.50%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Nira's Contempt",
+            "chance": "Rare (7.50%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Verdilac Blueprint",
+            "chance": "Rare (7.50%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "3X Narmer Isoplast",
+            "chance": "Uncommon (12.50%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "1200 Endo",
+            "chance": "Uncommon (17.50%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Boreal's Anguish",
+            "chance": "Uncommon (20.00%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Narmer Isoplast",
+            "chance": "Common (33.33%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "600 Endo",
+            "chance": "Common (46.67%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Boreal's Anguish",
+            "chance": "Rare (8.11%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Narmer Isoplast",
+            "chance": "Uncommon (13.51%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "600 Endo",
+            "chance": "Uncommon (18.92%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Caliban Chassis Blueprint",
+            "chance": "Rare (8.11%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Nira's Hatred",
+            "chance": "Uncommon (13.51%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "2X Narmer Isoplast",
+            "chance": "Uncommon (18.92%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "900 Endo",
+            "chance": "Uncommon (18.92%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Boreal's Anguish",
+            "chance": "Rare (5.45%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Narmer Isoplast",
+            "chance": "Rare (9.09%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "600 Endo",
+            "chance": "Uncommon (12.73%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Caliban Chassis Blueprint",
+            "chance": "Rare (5.45%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Nira's Hatred",
+            "chance": "Rare (9.09%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "2X Narmer Isoplast",
+            "chance": "Uncommon (12.73%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "900 Endo",
+            "chance": "Uncommon (12.73%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Amar's Contempt",
+            "chance": "Rare (5.45%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Nepheri Blueprint",
+            "chance": "Rare (5.45%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "3X Narmer Isoplast",
+            "chance": "Rare (9.09%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "1200 Endo",
+            "chance": "Uncommon (12.73%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Caliban Chassis Blueprint",
+            "chance": "Rare (7.50%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Nira's Hatred",
+            "chance": "Uncommon (12.50%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "2X Narmer Isoplast",
+            "chance": "Uncommon (17.50%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "900 Endo",
+            "chance": "Uncommon (17.50%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Amar's Contempt",
+            "chance": "Rare (7.50%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Nepheri Blueprint",
+            "chance": "Rare (7.50%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "3X Narmer Isoplast",
+            "chance": "Uncommon (12.50%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "1200 Endo",
+            "chance": "Uncommon (17.50%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Nira's Anguish",
+            "chance": "Uncommon (20.00%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Narmer Isoplast",
+            "chance": "Common (33.33%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "600 Endo",
+            "chance": "Common (46.67%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Nira's Anguish",
+            "chance": "Rare (8.11%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Narmer Isoplast",
+            "chance": "Uncommon (13.51%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "600 Endo",
+            "chance": "Uncommon (18.92%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Caliban Neuroptics Blueprint",
+            "chance": "Rare (8.11%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Amar's Hatred",
+            "chance": "Uncommon (13.51%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "2X Narmer Isoplast",
+            "chance": "Uncommon (18.92%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "900 Endo",
+            "chance": "Uncommon (18.92%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Nira's Anguish",
+            "chance": "Rare (5.45%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Narmer Isoplast",
+            "chance": "Rare (9.09%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "600 Endo",
+            "chance": "Uncommon (12.73%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Caliban Neuroptics Blueprint",
+            "chance": "Rare (5.45%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Amar's Hatred",
+            "chance": "Rare (9.09%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "2X Narmer Isoplast",
+            "chance": "Uncommon (12.73%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "900 Endo",
+            "chance": "Uncommon (12.73%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Boreal's Contempt",
+            "chance": "Rare (5.45%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Korumm Blueprint",
+            "chance": "Rare (5.45%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "3X Narmer Isoplast",
+            "chance": "Rare (9.09%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "1200 Endo",
+            "chance": "Uncommon (12.73%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Caliban Neuroptics Blueprint",
+            "chance": "Rare (7.50%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Amar's Hatred",
+            "chance": "Uncommon (12.50%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "2X Narmer Isoplast",
+            "chance": "Uncommon (17.50%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "900 Endo",
+            "chance": "Uncommon (17.50%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Boreal's Contempt",
+            "chance": "Rare (7.50%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Korumm Blueprint",
+            "chance": "Rare (7.50%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "3X Narmer Isoplast",
+            "chance": "Uncommon (12.50%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "1200 Endo",
+            "chance": "Uncommon (17.50%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "300 Endo",
+            "chance": "Common (36.76%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "3,000 Credits Cache",
+            "chance": "Uncommon (26.47%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Hunter Adrenaline",
+            "chance": "Common (36.76%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "300 Endo",
+            "chance": "Uncommon (12.14%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "3,000 Credits Cache",
+            "chance": "Rare (8.74%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Hunter Adrenaline",
+            "chance": "Uncommon (12.14%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Encrypted Journal Fragment",
+            "chance": "Uncommon (19.42%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Hunter Munitions",
+            "chance": "Rare (9.71%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Stubba Blueprint",
+            "chance": "Rare (4.85%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Cetus Wisp",
+            "chance": "Rare (9.71%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "5X Breath Of The Eidolon",
+            "chance": "Rare (4.85%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Neo F2 Relic",
+            "chance": "Uncommon (18.45%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "300 Endo",
+            "chance": "Rare (8.93%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "3,000 Credits Cache",
+            "chance": "Rare (6.43%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Hunter Adrenaline",
+            "chance": "Rare (8.93%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Encrypted Journal Fragment",
+            "chance": "Uncommon (14.29%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Hunter Munitions",
+            "chance": "Rare (7.14%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Stubba Blueprint",
+            "chance": "Rare (3.57%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Cetus Wisp",
+            "chance": "Rare (7.14%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "5X Breath Of The Eidolon",
+            "chance": "Rare (3.57%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Neo F2 Relic",
+            "chance": "Uncommon (13.57%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Hunter Track",
+            "chance": "Rare (7.14%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Nitain Extract",
+            "chance": "Rare (3.57%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Aya",
+            "chance": "Uncommon (15.71%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Encrypted Journal Fragment",
+            "chance": "Uncommon (18.87%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Hunter Munitions",
+            "chance": "Rare (9.43%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Stubba Blueprint",
+            "chance": "Rare (4.72%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Cetus Wisp",
+            "chance": "Rare (9.43%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "5X Breath Of The Eidolon",
+            "chance": "Rare (4.72%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Neo F2 Relic",
+            "chance": "Uncommon (17.92%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Hunter Track",
+            "chance": "Rare (9.43%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Nitain Extract",
+            "chance": "Rare (4.72%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Aya",
+            "chance": "Uncommon (20.75%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "300 Endo",
+            "chance": "Common (36.76%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "3,000 Credits Cache",
+            "chance": "Uncommon (26.47%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Hunter Recovery",
+            "chance": "Common (36.76%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "300 Endo",
+            "chance": "Uncommon (12.14%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "3,000 Credits Cache",
+            "chance": "Rare (8.74%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Hunter Recovery",
+            "chance": "Uncommon (12.14%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Encrypted Journal Fragment",
+            "chance": "Uncommon (19.42%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Hunter Synergy",
+            "chance": "Rare (9.71%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Quartakk Blueprint",
+            "chance": "Rare (4.85%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Cetus Wisp",
+            "chance": "Rare (9.71%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "5X Breath Of The Eidolon",
+            "chance": "Rare (4.85%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Neo Z10 Relic",
+            "chance": "Uncommon (18.45%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "300 Endo",
+            "chance": "Rare (8.93%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "3,000 Credits Cache",
+            "chance": "Rare (6.43%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Hunter Recovery",
+            "chance": "Rare (8.93%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Encrypted Journal Fragment",
+            "chance": "Uncommon (14.29%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Hunter Synergy",
+            "chance": "Rare (7.14%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Quartakk Blueprint",
+            "chance": "Rare (3.57%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Cetus Wisp",
+            "chance": "Rare (7.14%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "5X Breath Of The Eidolon",
+            "chance": "Rare (3.57%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Neo Z10 Relic",
+            "chance": "Uncommon (13.57%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Hunter Command",
+            "chance": "Rare (7.14%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Nitain Extract",
+            "chance": "Rare (3.57%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Aya",
+            "chance": "Uncommon (15.71%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Encrypted Journal Fragment",
+            "chance": "Uncommon (18.87%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Hunter Synergy",
+            "chance": "Rare (9.43%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Quartakk Blueprint",
+            "chance": "Rare (4.72%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Cetus Wisp",
+            "chance": "Rare (9.43%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "5X Breath Of The Eidolon",
+            "chance": "Rare (4.72%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Neo Z10 Relic",
+            "chance": "Uncommon (17.92%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Hunter Command",
+            "chance": "Rare (9.43%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Nitain Extract",
+            "chance": "Rare (4.72%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Aya",
+            "chance": "Uncommon (20.75%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Augur Message",
+            "chance": "Uncommon (25.00%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "100X Kuva",
+            "chance": "Uncommon (23.86%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Naramon Lens",
+            "chance": "Uncommon (14.77%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "300 Endo",
+            "chance": "Uncommon (25.00%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Lith N14 Relic",
+            "chance": "Ultra Rare (1.14%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Lith W3 Relic",
+            "chance": "Ultra Rare (1.14%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Lith T10 Relic",
+            "chance": "Ultra Rare (1.14%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Meso P14 Relic",
+            "chance": "Ultra Rare (1.14%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Neo F2 Relic",
+            "chance": "Ultra Rare (1.14%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Neo Z10 Relic",
+            "chance": "Ultra Rare (1.14%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Neo D8 Relic",
+            "chance": "Ultra Rare (1.14%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Axi H6 Relic",
+            "chance": "Ultra Rare (1.14%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Axi G11 Relic",
+            "chance": "Ultra Rare (1.14%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Axi G10 Relic",
+            "chance": "Ultra Rare (1.14%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Augur Message",
+            "chance": "Uncommon (12.87%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "100X Kuva",
+            "chance": "Uncommon (12.28%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Naramon Lens",
+            "chance": "Rare (7.60%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "300 Endo",
+            "chance": "Uncommon (12.87%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Lith N14 Relic",
+            "chance": "Legendary (0.58%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Lith W3 Relic",
+            "chance": "Legendary (0.58%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Lith T10 Relic",
+            "chance": "Legendary (0.58%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Meso P14 Relic",
+            "chance": "Legendary (0.58%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Neo F2 Relic",
+            "chance": "Legendary (0.58%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Neo Z10 Relic",
+            "chance": "Legendary (0.58%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Neo D8 Relic",
+            "chance": "Legendary (0.58%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Axi H6 Relic",
+            "chance": "Legendary (0.58%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Axi G11 Relic",
+            "chance": "Legendary (0.58%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Axi G10 Relic",
+            "chance": "Legendary (0.58%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Cetus Wisp",
+            "chance": "Uncommon (14.04%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Vigilante Pursuit",
+            "chance": "Uncommon (14.04%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Revenant Chassis Blueprint",
+            "chance": "Uncommon (14.04%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Lith G8 Relic",
+            "chance": "Legendary (0.58%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Lith R4 Relic",
+            "chance": "Legendary (0.58%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Meso G5 Relic",
+            "chance": "Legendary (0.58%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Meso M4 Relic",
+            "chance": "Legendary (0.58%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Meso P13 Relic",
+            "chance": "Legendary (0.58%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Neo S18 Relic",
+            "chance": "Legendary (0.58%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Neo K6 Relic",
+            "chance": "Legendary (0.58%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Neo K7 Relic",
+            "chance": "Legendary (0.58%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Axi B6 Relic",
+            "chance": "Legendary (0.58%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Axi G12 Relic",
+            "chance": "Legendary (0.58%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Axi L6 Relic",
+            "chance": "Legendary (0.58%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Augur Message",
+            "chance": "Rare (9.28%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "100X Kuva",
+            "chance": "Rare (8.86%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Naramon Lens",
+            "chance": "Rare (5.49%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "300 Endo",
+            "chance": "Rare (9.28%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Lith N14 Relic",
+            "chance": "Legendary (0.42%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Lith W3 Relic",
+            "chance": "Legendary (0.42%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Lith T10 Relic",
+            "chance": "Legendary (0.42%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Meso P14 Relic",
+            "chance": "Legendary (0.42%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Neo F2 Relic",
+            "chance": "Legendary (0.42%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Neo Z10 Relic",
+            "chance": "Legendary (0.42%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Neo D8 Relic",
+            "chance": "Legendary (0.42%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Axi H6 Relic",
+            "chance": "Legendary (0.42%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Axi G11 Relic",
+            "chance": "Legendary (0.42%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Axi G10 Relic",
+            "chance": "Legendary (0.42%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Cetus Wisp",
+            "chance": "Uncommon (10.13%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Vigilante Pursuit",
+            "chance": "Uncommon (10.13%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Revenant Chassis Blueprint",
+            "chance": "Uncommon (10.13%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Lith G8 Relic",
+            "chance": "Legendary (0.42%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Lith R4 Relic",
+            "chance": "Legendary (0.42%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Meso G5 Relic",
+            "chance": "Legendary (0.42%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Meso M4 Relic",
+            "chance": "Legendary (0.42%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Meso P13 Relic",
+            "chance": "Legendary (0.42%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Neo S18 Relic",
+            "chance": "Legendary (0.42%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Neo K6 Relic",
+            "chance": "Legendary (0.42%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Neo K7 Relic",
+            "chance": "Legendary (0.42%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Axi B6 Relic",
+            "chance": "Legendary (0.42%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Axi G12 Relic",
+            "chance": "Legendary (0.42%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Axi L6 Relic",
+            "chance": "Legendary (0.42%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Gladiator Finesse",
+            "chance": "Uncommon (23.21%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Lith H9 Relic",
+            "chance": "Legendary (0.42%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Lith C10 Relic",
+            "chance": "Legendary (0.42%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Meso B8 Relic",
+            "chance": "Legendary (0.42%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Meso G5 Relic",
+            "chance": "Legendary (0.42%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Meso W3 Relic",
+            "chance": "Legendary (0.42%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Neo N23 Relic",
+            "chance": "Legendary (0.42%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Neo F2 Relic",
+            "chance": "Legendary (0.42%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Neo Z10 Relic",
+            "chance": "Legendary (0.42%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Axi H6 Relic",
+            "chance": "Legendary (0.42%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Axi G11 Relic",
+            "chance": "Legendary (0.42%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Axi G10 Relic",
+            "chance": "Legendary (0.42%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Cetus Wisp",
+            "chance": "Uncommon (16.11%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Vigilante Pursuit",
+            "chance": "Uncommon (16.11%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Revenant Chassis Blueprint",
+            "chance": "Uncommon (16.11%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Lith G8 Relic",
+            "chance": "Legendary (0.67%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Lith R4 Relic",
+            "chance": "Legendary (0.67%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Meso G5 Relic",
+            "chance": "Legendary (0.67%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Meso M4 Relic",
+            "chance": "Legendary (0.67%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Meso P13 Relic",
+            "chance": "Legendary (0.67%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Neo S18 Relic",
+            "chance": "Legendary (0.67%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Neo K6 Relic",
+            "chance": "Legendary (0.67%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Neo K7 Relic",
+            "chance": "Legendary (0.67%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Axi B6 Relic",
+            "chance": "Legendary (0.67%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Axi G12 Relic",
+            "chance": "Legendary (0.67%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Axi L6 Relic",
+            "chance": "Legendary (0.67%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Gladiator Finesse",
+            "chance": "Common (36.91%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Lith H9 Relic",
+            "chance": "Legendary (0.67%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Lith C10 Relic",
+            "chance": "Legendary (0.67%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Meso B8 Relic",
+            "chance": "Legendary (0.67%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Meso G5 Relic",
+            "chance": "Legendary (0.67%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Meso W3 Relic",
+            "chance": "Legendary (0.67%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Neo N23 Relic",
+            "chance": "Legendary (0.67%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Neo F2 Relic",
+            "chance": "Legendary (0.67%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Neo Z10 Relic",
+            "chance": "Legendary (0.67%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Axi H6 Relic",
+            "chance": "Legendary (0.67%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Axi G11 Relic",
+            "chance": "Legendary (0.67%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        },
+        {
+            "item": "Axi G10 Relic",
+            "chance": "Legendary (0.67%)",
+            "rotation": "Stage 1",
+            "location": "Rotation A"
+        }
+    ]
+}

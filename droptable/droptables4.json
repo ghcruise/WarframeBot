@@ -1,0 +1,106 @@
+{
+    "drops": [
+        {
+            "item": "Rifle Riven Mod",
+            "chance": "Rare (6.79%)",
+            "rotation": "",
+            "location": "Sortie"
+        },
+        {
+            "item": "Ayatan Anasa Sculpture",
+            "chance": "Uncommon (28.00%)",
+            "rotation": "",
+            "location": "Sortie"
+        },
+        {
+            "item": "4000 Endo",
+            "chance": "Uncommon (12.10%)",
+            "rotation": "",
+            "location": "Sortie"
+        },
+        {
+            "item": "Forma",
+            "chance": "Rare (2.50%)",
+            "rotation": "",
+            "location": "Sortie"
+        },
+        {
+            "item": "Exilus Warframe Adapter",
+            "chance": "Rare (2.50%)",
+            "rotation": "",
+            "location": "Sortie"
+        },
+        {
+            "item": "Orokin Reactor Blueprint",
+            "chance": "Rare (2.50%)",
+            "rotation": "",
+            "location": "Sortie"
+        },
+        {
+            "item": "Orokin Catalyst Blueprint",
+            "chance": "Rare (2.50%)",
+            "rotation": "",
+            "location": "Sortie"
+        },
+        {
+            "item": "Legendary Core",
+            "chance": "Legendary (0.18%)",
+            "rotation": "",
+            "location": "Sortie"
+        },
+        {
+            "item": "6000X Kuva",
+            "chance": "Uncommon (12.00%)",
+            "rotation": "",
+            "location": "Sortie"
+        },
+        {
+            "item": "Mod Drop Chance Booster",
+            "chance": "Rare (3.27%)",
+            "rotation": "",
+            "location": "Sortie"
+        },
+        {
+            "item": "Affinity Booster",
+            "chance": "Rare (3.27%)",
+            "rotation": "",
+            "location": "Sortie"
+        },
+        {
+            "item": "Resource Drop Chance Booster",
+            "chance": "Rare (3.27%)",
+            "rotation": "",
+            "location": "Sortie"
+        },
+        {
+            "item": "Pistol Riven Mod",
+            "chance": "Rare (7.61%)",
+            "rotation": "",
+            "location": "Sortie"
+        },
+        {
+            "item": "Shotgun Riven Mod",
+            "chance": "Ultra Rare (1.36%)",
+            "rotation": "",
+            "location": "Sortie"
+        },
+        {
+            "item": "Melee Riven Mod",
+            "chance": "Rare (8.14%)",
+            "rotation": "",
+            "location": "Sortie"
+        },
+        {
+            "item": "Zaw Riven Mod",
+            "chance": "Rare (2.00%)",
+            "rotation": "",
+            "location": "Sortie"
+        },
+        {
+            "item": "Kitgun Riven Mod",
+            "chance": "Rare (2.00%)",
+            "rotation": "",
+            "location": "Sortie"
+        }
+    ]
+}
