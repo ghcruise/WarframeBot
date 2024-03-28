@@ -37,4 +37,4 @@ def solNode(nodeName):
         return nodeInfo[0]
 
 # print(solNode("EventNode1"))
-# print(solNode("SolNode747"))
+# print(solNode("SolNode718"))

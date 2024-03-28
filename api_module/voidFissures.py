@@ -8,7 +8,7 @@ import datetime
 sys.path.append(os.path.join(os.getcwd()))
 from function.get_solnode_info import solNode
 
-voidDict = {"VoidT1":"古纪","VoidT2":"前纪","VoidT3":"中纪","VoidT4":"后纪","VoidT5":"安魂"}
+voidDict = {"VoidT1":"古纪","VoidT2":"前纪","VoidT3":"中纪","VoidT4":"后纪","VoidT5":"安魂","VoidT6":"全能"}
 print("[ init ] Voidfissures.")
 
 def getFissures():
@@ -17,6 +17,8 @@ def getFissures():
     # print("[ VoidFissures ] Status Code:",worldState.status_code)
     with open("content/worldState.json",'r',encoding='utf-8') as f:
         worldState_dict=json.load(f)
+    with open("content/extra/SolNode.json",'r',encoding='utf-8') as f0:
+        sol_info = json.load(f0)
 
     fissures_dict = worldState_dict['ActiveMissions']
     fissures_dict = sorted(fissures_dict, key=lambda x : x['Region'], reverse=False)
@@ -32,18 +34,20 @@ def getFissures():
     voidT3 = [obj for obj in fissures_dict if (obj['Modifier']=="VoidT3" and obj.get('Hard') is None)]
     voidT4 = [obj for obj in fissures_dict if (obj['Modifier']=="VoidT4" and obj.get('Hard') is None)]
     voidT5 = [obj for obj in fissures_dict if (obj['Modifier']=="VoidT5" and obj.get('Hard') is None)]
+    voidT6 = [obj for obj in fissures_dict if (obj['Modifier']=="VoidT6" and obj.get('Hard') is None)]
     voidT1h = [obj for obj in fissures_dict if (obj['Modifier']=="VoidT1" and obj.get('Hard') is True)]
     voidT2h = [obj for obj in fissures_dict if (obj['Modifier']=="VoidT2" and obj.get('Hard') is True)]
     voidT3h = [obj for obj in fissures_dict if (obj['Modifier']=="VoidT3" and obj.get('Hard') is True)]
     voidT4h = [obj for obj in fissures_dict if (obj['Modifier']=="VoidT4" and obj.get('Hard') is True)]
     voidT5h = [obj for obj in fissures_dict if (obj['Modifier']=="VoidT5" and obj.get('Hard') is True)]
+    voidT6h = [obj for obj in fissures_dict if (obj['Modifier']=="VoidT6" and obj.get('Hard') is True)]
     voidT1s = [obj for obj in storms_dict if obj['ActiveMissionTier']=="VoidT1"]
     voidT2s = [obj for obj in storms_dict if obj['ActiveMissionTier']=="VoidT2"]
     voidT3s = [obj for obj in storms_dict if obj['ActiveMissionTier']=="VoidT3"]
     voidT4s = [obj for obj in storms_dict if obj['ActiveMissionTier']=="VoidT4"]
 
-    voidFissureN = voidT1+voidT2+voidT3+voidT4+voidT5
-    voidFissureH = voidT1h+voidT2h+voidT3h+voidT4h+voidT5h
+    voidFissureN = voidT1+voidT2+voidT3+voidT4+voidT5+voidT6
+    voidFissureH = voidT1h+voidT2h+voidT3h+voidT4h+voidT5h+voidT6h
     voidFissureS = voidT1s+voidT2s+voidT3s+voidT4s
 
     NCard = [{
@@ -58,7 +62,9 @@ def getFissures():
             continue
         else:
             nodeContent = solNode(voidFissureN[i]['Node'])
-            cardContent = f"{voidDict[voidFissureN[i]['Modifier']]} - {nodeContent['type']} - {nodeContent['faction']}\n {nodeContent['name']} - {nodeContent['systemName']}"
+            nodeType = voidFissureN[i]['MissionType']
+            MT =[obj for obj in sol_info['missionTypes'] if obj['missionType']==nodeType]
+            cardContent = f"{voidDict[voidFissureN[i]['Modifier']]} - {MT[0]['type']} - {nodeContent['faction']}\n {nodeContent['name']} - {nodeContent['systemName']}"
             NCard[0]['modules'].append({
                 "type": "section",
                 "text": {
@@ -119,6 +125,8 @@ def getFissures():
             continue
         else:
             nodeContent = solNode(voidFissureH[i]['Node'])
+            nodeType = voidFissureH[i]['MissionType']
+            MT =[obj for obj in sol_info['missionTypes'] if obj['missionType']==nodeType]
             cardContent = f"{voidDict[voidFissureH[i]['Modifier']]} - {nodeContent['type']} - {nodeContent['faction']}\n {nodeContent['name']} - {nodeContent['systemName']}(钢铁之路)"
             HCard[0]['modules'].append({
                 "type": "section",
@@ -231,4 +239,4 @@ def getFissures():
     # print(NCard)
     return NCard,HCard,SCard,voidFissureN,voidFissureH
     
-# print(getFissures()[2])
+print(getFissures()[1])

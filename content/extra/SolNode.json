@@ -13,6 +13,7 @@
     {"missionIndex": 15, "missionType": "MT_HIVE", "type": "清巢"},
     {"missionIndex": 17, "missionType": "MT_EXCAVATE", "type": "挖掘"},
     {"missionIndex": 21, "missionType": "", "type": "Infested资源回收"},
+    {"missionIndex": 21, "missionType": "MT_ALCHEMY", "type": "元素转换"},
     {"missionIndex": 22, "missionType": "MT_ARENA", "type": "竞技场"},
     {"missionIndex": 24, "missionType": "", "type": "追击"},
     {"missionIndex": 25, "missionType": "", "type": "突袭"},
@@ -22,7 +23,7 @@
     {"missionIndex": 31, "missionType": "", "type": "无尽回廊"},
     {"missionIndex": 33, "missionType": "MT_ARTIFACT", "type": "中断"},
     {"missionIndex": 34, "missionType": "", "type": "虚空洪流"},
-    {"missionIndex": 35, "missionType": "", "type": "虚空覆涌"},
+    {"missionIndex": 35, "missionType": "MT_VOID_CASCADE", "type": "虚空覆涌"},
     {"missionIndex": 36, "missionType": "", "type": "虚空决战"}],
 "missionFactions":[
     {"factionIndex": 0, "factionType":"FC_GRINEER", "faction": "Grineer"},
@@ -30,5 +31,5 @@
     {"factionIndex": 2, "factionType":"FC_INFESTATION", "faction": "Infested"},
     {"factionIndex": 3, "factionType":"FC_OROKIN", "faction": "Orokin"},
     {"factionIndex": 5, "factionType":"", "faction": "Duviri"},
-    {"factionIndex": 7, "factionType":"", "faction": "Murmur"}]
+    {"factionIndex": 7, "factionType":"", "faction": "低语者"}]
 }
