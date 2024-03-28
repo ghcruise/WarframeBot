@@ -9,6 +9,7 @@ A Warframe notification bot based on python
 - [部署方法](#部署方法)
   - [Windows](#windows)
   - [Linux](#linux)
+  - [更新日志](#更新日志)
 
 
 ## 查询功能-指令 
@@ -100,3 +101,5 @@ start.bat
 ```
 run.sh
 ```
+### 更新日志
+ - 2024.3.28 适配“全能”虚空裂缝
