@@ -29,7 +29,7 @@ def getWorldState():
     recu_down("http://content.warframe.com/dynamic/worldState.php", "content/worldState.json")
     with open("content/worldState.json",'r', encoding='utf-8')as f1:
         content = f1.readlines()
-    #content= [line.replace('},',"},\n").replace('],','],\n') for line in content[:]]
+    #content= [line.replace('},',"},\n").replace('],','],\n').replace('Tmp\":\"','Tmp\":').replace('}"}','}}').replace('\\\"',"\"") for line in content[:]]
     #content= [line.replace('},',"},\n") for line in content[:]]
     with open("content/worldState.json",'w', encoding='utf-8')as f2:
         f2.writelines(content)

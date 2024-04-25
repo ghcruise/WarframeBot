@@ -1,0 +1,20 @@
+{"prisbegin":"1687363200",
+"prisend":"1688572800",
+"cavabegin":"1690761600",
+"PurchasePlatformLockEnabled":true,
+"lqo2":{
+    "mt":["Alchemy","Defense","Assassination"],
+    "mv":["AlchemicalShields","HarshWords","Reinforcements"],
+    "c":[["Voidburst","PointBlank"],["ShieldedFoes","RegeneratingEnemies"],["Deflectors","VoidAberration"]],
+    "fv":["Starvation","Gearless","Exhaustion","ContactDamage"]},
+"lqo3":{
+    "mt":["Extermination","Defense","Disruption"],
+    "mv":["FortifiedFoes","HostileSecurity","StickyFingers"],
+    "c":[["Voidburst","RegeneratingEnemies"],["VoidAberration","Voidburst"],["RegeneratingEnemies","PointBlank"]],
+    "fv":["Framecurse","ShieldDelay","Withering","TimeDilation"]},
+"lqo4":{
+    "mt":["Survival","Defense","Assassination"],
+    "mv":["NecramechLockout","LostInTranslation","InfiniteTide"],
+    "c":[["RegeneratingEnemies","VoidAberration"],["ShieldedFoes","Deflectors"],["PointBlank","Voidburst"]],
+    "fv":["Armorless","TimeDilation","OperatorLockout","Starvation"]},
+"sfn":555}
