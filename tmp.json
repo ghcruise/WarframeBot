@@ -17,4 +17,9 @@
     "mv":["NecramechLockout","LostInTranslation","InfiniteTide"],
     "c":[["RegeneratingEnemies","VoidAberration"],["ShieldedFoes","Deflectors"],["PointBlank","Voidburst"]],
     "fv":["Armorless","TimeDilation","OperatorLockout","Starvation"]},
+"lqo5":{
+    "mt":["Extermination","Disruption","Alchemy"],
+    "mv":["GrowingIncursion","FragileNodes","VolatileGrenades"],
+    "c":[["AcceleratedEnemies","EMPBlackHole"],["ExplosiveCrawlers","ShieldedFoes"],["AntiMaterialWeapons","RegeneratingEnemies"]],
+    "fv":["ContactDamage","Knifestep","AbilityLockout","Exhaustion"]},
 "sfn":555}
