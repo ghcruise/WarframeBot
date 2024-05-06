@@ -1,5 +1,6 @@
 {
     "missionType":{
+        "Tag":"Untranslated",
         "Alchemy":"元素转换",
         "Defense":"镜像防御",
         "Assassination":"刺杀",
@@ -8,7 +9,7 @@
         "Survival":"生存"
     },
     "missionDeviation":{
-        "Tag":"任务偏差",
+        "Tag":["任务偏差","Untranslated"],
         "AlchemicalShields":["炼金难侵","有 10% 敌人装备了不可穿透的元素屏障，只有对应元素的元素瓶才能摧毁屏障"],
         "HarshWords":["带刺钥符","每个浮印在被收集时都会造成少量伤害"],
         "Reinforcements":["协调阵线","卓越者敌人出现并支援断肢潮和最终的接肢怪"],
@@ -20,23 +21,25 @@
         "InfiniteTide":["无情肢潮","断肢潮不会停止攻击"],
         "GrowingIncursion":["裂缝激增","裂缝在任务中形成，使得敌人的等级每 10 秒提升 1 级，消灭它们以防止等级增加"],
         "FragileNodes":["统一目标","所有敌人以导管为目标"],
-        "VolatileGrenades":["高危物资","携带元素瓶时会受到与之对应的元素伤害"]
+        "VolatileGrenades":["高危物资","携带元素瓶时会受到与之对应的元素伤害"],
+        "DoubleTrouble":["双重爆破","每个导管都会受到两台爆破型殁世机甲的攻击，这些殁世机甲的生命值降低"],
+        "UnpoweredCapsules":["寄生装置塔","维生装置塔只有在其 15 米范围内杀死 20 名敌人后才会激活"]
     },
     "riskVariables":{
-        "Tag":"风险变量",
+        "Tag":["风险变量","Untranslated"],
         "Voidburst":["死后冲击","被击杀的敌人会爆发出虚空能量"],
         "PointBlank":["短视弹药","玩家距离敌人 15 米以内时，敌人才会受到伤害"],
         "ShieldedFoes":["强化好战","所有敌人获得相当于他们最大生命值 50% 的超宏防护"],
         "RegeneratingEnemies":["敌军复生","敌人的生命值会缓慢恢复"],
         "Deflectors":["坚不可摧","可能会出现守护者卓越者敌人，包括守护卓越者殁世机甲"],
         "VoidAberration":["吸血界影","行动缓慢且不死的双衍王境界影，能从过于接近的友军身上吸取生命和能量"],
-        "AntiMaterialWeapons":["指挥型重型炮兵",""],
+        "AntiMaterialWeapons":["指挥型重型炮兵","暴戾重型炮兵装备的武器对超宏防护和殁世机甲造成 5 倍的伤害"],
         "ExplosiveCrawlers":["易爆潜能","爆裂断肢取代蹒跚断肢"],
         "AcceleratedEnemies":["激进冒险","敌人造成的伤害 -15%，受到的伤害 +15%，但移动速度、攻击速度和射速 +15%"],
         "EMPBlackHole":["迷人弧犬","当暴戾弧犬发起攻击时，它们会将战甲拉向自己"]
     },
     "individualVariables":{
-        "Tag":"个人变量",
+        "Tag":["个人变量","Untranslated"],
         "Starvation":["弹药亏空","通过掉落和道具恢复的弹药减少 75%"],
         "Gearless":["携带装备限制","无法使用携带装备选单"],
         "Exhaustion":["能量枯竭","周围 10 米范围内的所有敌人使你每秒丢失 2 能量"],
