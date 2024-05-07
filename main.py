@@ -25,6 +25,7 @@ from api_module.alert import alert
 from api_module.pushNotification.fissureSort import fissurePush
 from api_module.cycle import get_cycle
 from api_module.news.bili import get_news
+from api_module.archimedea import getArchimedea
 
 
 with open('config/config.json', 'r', encoding='utf-8') as f1,\
@@ -285,6 +286,12 @@ async def command_fissurePush():
 async def command_news(msg:Message,news_order:int=0):
     cm = await get_news(news_order)
     await msg.ctx.channel.send(cm[0])
+
+#深层科研
+@bot.command(name='科研',prefixes=[''])
+async def command_archimedea(msg:Message):
+    cm = getArchimedea()
+    await msg.ctx.channel.send(cm)
 
 logging.basicConfig(level='INFO')
 bot.run()
