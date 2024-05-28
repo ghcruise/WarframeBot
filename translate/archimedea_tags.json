@@ -36,7 +36,8 @@
         "AntiMaterialWeapons":["指挥型重型炮兵","暴戾重型炮兵装备的武器对超宏防护和殁世机甲造成 5 倍的伤害"],
         "ExplosiveCrawlers":["易爆潜能","爆裂断肢取代蹒跚断肢"],
         "AcceleratedEnemies":["激进冒险","敌人造成的伤害 -15%，受到的伤害 +15%，但移动速度、攻击速度和射速 +15%"],
-        "EMPBlackHole":["迷人弧犬","当暴戾弧犬发起攻击时，它们会将战甲拉向自己"]
+        "EMPBlackHole":["迷人弧犬","当暴戾弧犬发起攻击时，它们会将战甲拉向自己"],
+        "Quicksand":["牵连","敌人被击杀时4米范围内友军移动速度和跑酷速度降低"]
     },
     "individualVariables":{
         "Tag":["个人变量","Untranslated"],
