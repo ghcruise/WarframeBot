@@ -26,3 +26,5 @@ def getWorldState():
     if world_state_data:
         with open("content/worldState.json", "w", encoding="utf-8") as f:
             json.dump(world_state_data, f, indent=4, ensure_ascii=False)
+
+getWorldState()

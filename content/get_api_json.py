@@ -11,7 +11,7 @@ def recu_down(url,filename): # recurrent download with ContentTooShortError
         recu_down(url,filename)
 
 
-urlretrieve("http://vmjp.voidfissure.com/index_zh.txt", "content/api_content.txt")
+urlretrieve("http://vmjp.voidfissure.de/index_zh.txt", "content/api_content.txt")
 with open("content/api_content.txt",'r', encoding='utf-8') as f1:
     api_path = [line.rstrip() for line in f1.readlines()]
 
