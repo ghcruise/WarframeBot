@@ -13,7 +13,7 @@
     {"missionIndex": 15, "missionType": "MT_HIVE", "type": "清巢"},
     {"missionIndex": 17, "missionType": "MT_EXCAVATE", "type": "挖掘"},
     {"missionIndex": 21, "missionType": "", "type": "Infested资源回收"},
-    {"missionIndex": 21, "missionType": "MT_ALCHEMY", "type": "元素转换"},
+    {"missionIndex": 38, "missionType": "MT_ALCHEMY", "type": "元素转换"},
     {"missionIndex": 22, "missionType": "MT_ARENA", "type": "竞技场"},
     {"missionIndex": 24, "missionType": "", "type": "追击"},
     {"missionIndex": 25, "missionType": "", "type": "突袭"},
@@ -31,5 +31,7 @@
     {"factionIndex": 2, "factionType":"FC_INFESTATION", "faction": "Infested"},
     {"factionIndex": 3, "factionType":"FC_OROKIN", "faction": "Orokin"},
     {"factionIndex": 5, "factionType":"", "faction": "Duviri"},
-    {"factionIndex": 7, "factionType":"", "faction": "低语者"}]
+    {"factionIndex": 7, "factionType":"", "faction": "低语者"},
+    {"factionIndex": 8, "factionType":"", "faction": "炽蛇军"},
+    {"factionIndex": 9, "factionType":"", "faction": "科腐者"}]
 }

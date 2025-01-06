@@ -8,7 +8,7 @@ from khl import Bot , Message ,EventTypes ,Event
 sys.path.append(os.path.join(os.getcwd(), 'api_module'))
 from content.get_worldState import getWorldState
 from function.updateCardmessage import upd_card
-from api_module.arbitration import arbitration
+# from api_module.arbitration import arbitration
 from api_module.sortie import sortie
 from api_module.archonHunt import archon
 from api_module.darvo import dailyDeal
@@ -25,7 +25,7 @@ from api_module.alert import alert
 from api_module.pushNotification.fissureSort import fissurePush
 from api_module.cycle import get_cycle
 from api_module.news.bili import get_news
-from api_module.archimedea import getArchimedea
+# from api_module.archimedea import getArchimedea
 
 
 with open('config/config.json', 'r', encoding='utf-8') as f1,\
@@ -89,10 +89,10 @@ async def command_eidonlon_sub():
                 print("no_eidolon")
 
 #仲裁
-@bot.command(name='仲裁',prefixes=[''])
-async def command_arbitration(msg:Message):
-    cm = arbitration()[0]
-    await msg.ctx.channel.send(cm)
+# @bot.command(name='仲裁',prefixes=[''])
+# async def command_arbitration(msg:Message):
+#     cm = arbitration()[0]
+#     await msg.ctx.channel.send(cm)
 
 #仲裁推送
 # cm_arbtration_sub = arbitration()[0]
@@ -109,19 +109,19 @@ async def command_arbitration(msg:Message):
 #                 await bot.send(ch,cm2)
 
 #仲裁好图推送
-arbitrationPush = 0
-@bot.task.add_cron(hour='0/1', minute="0-3",second="50")
-async def command_arbitration_push():
-            global arbitrationPush
-            cm = arbitration()
-            if (cm[1] == 0):
-                arbitrationPush = 0
-                print("arb is no value.")
-            elif arbitrationPush==0:
-                arbitrationPush=1
-                cm[0][0]['theme']="danger"
-                ch = await bot.client.fetch_public_channel(channelID)
-                await bot.send(ch,cm[0])
+# arbitrationPush = 0
+# @bot.task.add_cron(hour='0/1', minute="0-3",second="50")
+# async def command_arbitration_push():
+#             global arbitrationPush
+#             cm = arbitration()
+#             if (cm[1] == 0):
+#                 arbitrationPush = 0
+#                 print("arb is no value.")
+#             elif arbitrationPush==0:
+#                 arbitrationPush=1
+#                 cm[0][0]['theme']="danger"
+#                 ch = await bot.client.fetch_public_channel(channelID)
+#                 await bot.send(ch,cm[0])
 
 #突击
 @bot.command(name='突击',prefixes=[''])
@@ -287,11 +287,11 @@ async def command_news(msg:Message,news_order:int=0):
     cm = await get_news(news_order)
     await msg.ctx.channel.send(cm[0])
 
-#深层科研
-@bot.command(name='科研',prefixes=[''])
-async def command_archimedea(msg:Message):
-    cm = getArchimedea()
-    await msg.ctx.channel.send(cm)
+# #深层科研
+# @bot.command(name='科研',prefixes=[''])
+# async def command_archimedea(msg:Message):
+#     cm = getArchimedea()
+#     await msg.ctx.channel.send(cm)
 
 logging.basicConfig(level='INFO')
 bot.run()
