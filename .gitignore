@@ -1,6 +1,5 @@
 config/config.json
 content/Export*
 content/worldState.json
-content/api_content.txt
 *.pyc
 api_module/pushNotification/pushconfig.json
